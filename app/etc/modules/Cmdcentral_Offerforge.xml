@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Cmdcentral_Offerforge>
+      <active>true</active>
+      <codePool>local</codePool>
+      <version>0.1.0</version>
+    </Cmdcentral_Offerforge>
+  </modules>
+</config>
