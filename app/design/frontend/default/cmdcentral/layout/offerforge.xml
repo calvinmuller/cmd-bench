@@ -1,0 +1,9 @@
+<?xml version="1.0"?>   
+<layout version="0.1.0">   
+  <checkout_onepage_success>   
+    <reference name="content">   
+      <block type="offerforge/index" name="offerforge_index" template="offerforge/index.phtml"/>   
+    </reference>   
+  </checkout_onepage_success>   
+</layout>   
+	
