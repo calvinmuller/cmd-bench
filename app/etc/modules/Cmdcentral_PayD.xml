@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+    <modules>
+        <Cmdcentral_PayD>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends><Mage_Payment /></depends>
+            <version>1.0</version>
+        </Cmdcentral_PayD>
+    </modules>
+</config>

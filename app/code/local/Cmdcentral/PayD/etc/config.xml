@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) Cmdcentral 2012 -->
+
+<config>
+    <modules>
+        <Cmdcentral_PayD>
+            <version>1.0</version>
+        </Cmdcentral_PayD>
+    </modules>
+    <global>
+        <models>
+            <payd>
+                <class>Cmdcentral_PayD_Model</class>
+            </payd>
+        </models>
+        <helpers>
+	      <payd>
+            <class>Cmdcentral_PayD_Helper</class>
+		  </payd>
+	    </helpers>
+        <resources>
+            <payd_setup>
+                <setup>
+                    <module>Cmdcentral_PayD</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </payd_setup>
+            <payd_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </payd_write>
+            <payd_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </payd_read>
+        </resources>
+        <blocks>
+            <payd><class>Cmdcentral_PayD_Block</class></payd>
+        </blocks>
+     </global>
+    <frontend>
+        <routers>
+            <payd>
+                <use>standard</use>
+                <args>
+                    <module>Cmdcentral_PayD</module>
+                    <frontName>payd</frontName>
+                </args>
+            </payd>
+        </routers>
+    </frontend>
+    <default>
+        <payment>
+            <payd_functions>
+                <active>0</active>
+                <title>Pay with PayD Debit Cards</title>
+                <post_url>https://paymentgate.co.za</post_url>
+                <mode>0</mode>
+                <order_status>pending</order_status>
+                <order_placed_email>0</order_placed_email>
+                <order_successful_email>0</order_successful_email>
+                <order_failed_email>0</order_failed_email>
+		<currency_code>ZAR</currency_code>
+                <shipping_code>ZA</shipping_code>
+                <model>payd/functions</model>
+            </payd_functions>
+        </payment>
+    </default>
+</config>

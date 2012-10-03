@@ -1,0 +1,4353 @@
+---- TRACE : 1 -----
+************************************
+/inc/dbhelper.class.php:217 - PDOStatement->execute
+----------------------------------------
+Array
+(
+    [0] => Array
+        (
+            [0] => 8
+            [1] => 167
+            [2] => 59
+            [3] => 167
+            [4] => 123
+            [5] => 167
+            [6] => 150
+            [7] => 167
+            [8] => 151
+            [9] => 167
+        )
+
+)
+
+/inc/dbhelper.class.php:276 - DBHelper->exec_stmt
+----------------------------------------
+Array
+(
+    [0] => INSERT IGNORE INTO catalog_category_product (`category_id`,`product_id`)
+				 VALUES	 (?,?),(?,?),(?,?),(?,?),(?,?)
+    [1] => Array
+        (
+            [0] => 8
+            [1] => 167
+            [2] => 59
+            [3] => 167
+            [4] => 123
+            [5] => 167
+            [6] => 150
+            [7] => 167
+            [8] => 151
+            [9] => 167
+        )
+
+)
+
+/engines/magmi_productimportengine.php:924 - DBHelper->insert
+----------------------------------------
+Array
+(
+    [0] => INSERT IGNORE INTO catalog_category_product (`category_id`,`product_id`)
+				 VALUES	 (?,?),(?,?),(?,?),(?,?),(?,?)
+    [1] => Array
+        (
+            [0] => 8
+            [1] => 167
+            [2] => 59
+            [3] => 167
+            [4] => 123
+            [5] => 167
+            [6] => 150
+            [7] => 167
+            [8] => 151
+            [9] => 167
+        )
+
+)
+
+/engines/magmi_productimportengine.php:1205 - Magmi_ProductImportEngine->assignCategories
+----------------------------------------
+Array
+(
+    [0] => 167
+    [1] => Array
+        (
+            [store] => admin
+            [websites] => base
+            [attribute_set] => Default
+            [type] => simple
+            [category_ids] => 8,59,123,150,151
+            [sku] => 0001_mu
+            [has_options] => 0
+            [name] => Golden Lattice Nail Strips
+            [meta_title] => Incoco Golden Lattice Nail Strips
+            [meta_description] => Incoco Golden Lattice Nail Strips
+            [image] => /i/n/incoco_golden_lattice_nail_strips_3.jpg
+            [small_image] => /i/n/incoco_golden_lattice_nail_strips_3.jpg
+            [thumbnail] => /i/n/incoco_golden_lattice_nail_strips_3.jpg
+            [url_key] => too-faced-everyday-amazing-eyes-kit
+            [url_path] => too-faced-everyday-amazing-eyes-kit.html
+            [custom_design] => 
+            [page_layout] => No layout updates
+            [options_container] => Block after Info Column
+            [image_label] => 
+            [small_image_label] => 
+            [thumbnail_label] => 
+            [country_of_manufacture] =>  
+            [msrp_enabled] => Use config
+            [msrp_display_actual_price_type] => Use config
+            [gift_message_available] => No
+            [size] => 
+            [complextion_color] => 
+            [volume] => 
+            [allergens] => 
+            [ingredients] => 
+            [youtube] => 
+            [brand] => Incoco
+            [age] => Under 25
+            [ave_spend] => Below R200
+            [burn] => 
+            [describe_hair] => 
+            [fragrance_pref] => 
+            [hair_color] => 
+            [hair_concern] => 
+            [hair_dye_colour] => 
+            [hair_length] => 
+            [hair_texture] => 
+            [skin_concern] => 
+            [skin_type] => 
+            [scent] => 
+            [price] => 100.0000
+            [special_price] => 
+            [weight] => 0.0000
+            [msrp] => 
+            [manufacturer] => 
+            [color] => 
+            [status] => Enabled
+            [is_recurring] => No
+            [visibility] => Catalog, Search
+            [enable_googlecheckout] => Yes
+            [tax_class_id] => Shipping
+            [colour_hair] => 
+            [editor_pick] => 
+            [stocklocation] => In stock
+            [description] => Love beautifully manicured nails but don’t have the time or energy to paint them? Incoco Nail Polish Appliqué Strips are made from 100% real nail polish, contain a base, colour and top coat and can be applied quickly and easily. Plus they’re super flexible and come in a variety of different shapes, so you can match your natural nail shape perfectly. No more spills, smudges or drying time! Once the strips are stuck down, they last for up to ten days, so you can enjoy gorgeous, long-lasting colour, without any fuss. Sound tricky? Watch this awesome video here on how to apply.
+ 
+Want a sophisticated mani with a touch of fun? Golden Lattice is a beautiful, finely detailed print, perfect for spicing up the elegant look.
+ 
+Want to learn more about the brand? Click here.
+ 
+Want to hear our thoughts on Incoco? Click here.
+
+            [short_description] => Sophisticated nails in a flash- no more drying time!
+            [meta_keyword] => 
+            [custom_layout_update] => 
+            [beauty_review] => Of all the makeup looks out there, beautifully painted nails are my absolute favourite. If I had the time and the patience, my nails would be a different colour every week and I’d take nail art to the next level. However, as I’m always in a rush, I tend to smudge my nail polish almost every time. Plus having to wait for my base coat, two colour coats and a top coat to dry, means I try doing things with wet nails, only to ruin my mani.
+ 
+I’d heard of nail strips before, but I never tried them because I didn’t believe a “sticker” would last any longer than normal nail polish, plus it seemed tricky to cut them into shape. Incoco Nail Polish Appliqué Strips proved me wrong, and since trying them out, I will never look at nail art in the same way- I was totally blown away! The strips are made from 100% real nail polish, and contain a base coat, colour coat and top coat. Free of formaldehyde and toluene, they won’t damage your nails either, so you can chop and change without worrying about harmful ingredients. They’re available in over 100 colours and styles, and for my first time, I chose a hot pink. One of the things I loved most about the product is that the strips come in a variety of different sizes, so you can match them to fit your nail shape perfectly. They’re flexible and stretch easily, so you can gently pull at them to make them fit over your whole nail. Once you’ve selected the right size, you gently peel the strip off its backing paper, place on your nail, stretch horizontally and across (if needed), fold the excess strip over the edge of your nail, and file it off. If you make a mistake you can gently peel the strip off and re-apply (provided you haven’t smoothed it out and filed the edge off). No mess, no smudges, no unpleasant smell and best of all, no waiting for liquid polish to dry. When they start to wear off or you get tired of the colour, you just lightly wipe over them with some regular nail polish remover on a piece of cotton wool. This was the fastest I’ve ever done my nails and the strips were super easy to apply too. It looked like I was wearing normal nail polish, except it had a very glossy shine to it that you don’t often find in liquid nail colours. The colour lasted a full week before it began to chip (to me this is extremely long, considering I’m always using my hands and normal polish lasts about three days). I got loads of compliments and was even asked if I’d had my nails done professionally. I’ll definitely be trying these strips again, and I think I’ll pick a colourful print next time.
+
+            [special_from_date] => 
+            [special_to_date] => 
+            [news_from_date] => 
+            [news_to_date] => 
+            [custom_design_from] => 
+            [custom_design_to] => 
+            [qty] => 6.0000
+            [min_qty] => 0.0000
+            [use_config_min_qty] => 1
+            [is_qty_decimal] => 0
+            [backorders] => 0
+            [use_config_backorders] => 1
+            [min_sale_qty] => 1.0000
+            [use_config_min_sale_qty] => 1
+            [max_sale_qty] => 10000.0000
+            [use_config_max_sale_qty] => 1
+            [is_in_stock] => 1
+            [low_stock_date] => 
+            [notify_stock_qty] => 1.0000
+            [use_config_notify_stock_qty] => 1
+            [manage_stock] => 1
+            [use_config_manage_stock] => 1
+            [stock_status_changed_auto] => 0
+            [use_config_qty_increments] => 1
+            [qty_increments] => 0.0000
+            [use_config_enable_qty_inc] => 1
+            [enable_qty_increments] => 0
+            [is_decimal_divided] => 0
+            [stock_status_changed_automatically] => 0
+            [use_config_enable_qty_increments] => 1
+            [product_name] => Golden Lattice Nail Strips
+            [store_id] => 0
+            [product_type_id] => simple
+            [product_status_changed] => 
+            [product_changed_websites] => 
+            [green_prod] => 
+            [subscription_product] => 
+            [frequency] => 
+        )
+
+)
+
+/engines/magmi_productimportengine.php:1394 - Magmi_ProductImportEngine->importItem
+----------------------------------------
+Array
+(
+    [0] => Array
+        (
+            [store] => admin
+            [websites] => base
+            [attribute_set] => Default
+            [type] => simple
+            [category_ids] => 8,59,123,150,151
+            [sku] => 0001_mu
+            [has_options] => 0
+            [name] => Golden Lattice Nail Strips
+            [meta_title] => Incoco Golden Lattice Nail Strips
+            [meta_description] => Incoco Golden Lattice Nail Strips
+            [image] => /i/n/incoco_golden_lattice_nail_strips_3.jpg
+            [small_image] => /i/n/incoco_golden_lattice_nail_strips_3.jpg
+            [thumbnail] => /i/n/incoco_golden_lattice_nail_strips_3.jpg
+            [url_key] => too-faced-everyday-amazing-eyes-kit
+            [url_path] => too-faced-everyday-amazing-eyes-kit.html
+            [custom_design] => 
+            [page_layout] => No layout updates
+            [options_container] => Block after Info Column
+            [image_label] => 
+            [small_image_label] => 
+            [thumbnail_label] => 
+            [country_of_manufacture] =>  
+            [msrp_enabled] => Use config
+            [msrp_display_actual_price_type] => Use config
+            [gift_message_available] => No
+            [size] => 
+            [complextion_color] => 
+            [volume] => 
+            [allergens] => 
+            [ingredients] => 
+            [youtube] => 
+            [brand] => Incoco
+            [age] => Under 25
+            [ave_spend] => Below R200
+            [burn] => 
+            [describe_hair] => 
+            [fragrance_pref] => 
+            [hair_color] => 
+            [hair_concern] => 
+            [hair_dye_colour] => 
+            [hair_length] => 
+            [hair_texture] => 
+            [skin_concern] => 
+            [skin_type] => 
+            [scent] => 
+            [price] => 100.0000
+            [special_price] => 
+            [weight] => 0.0000
+            [msrp] => 
+            [manufacturer] => 
+            [color] => 
+            [status] => Enabled
+            [is_recurring] => No
+            [visibility] => Catalog, Search
+            [enable_googlecheckout] => Yes
+            [tax_class_id] => Shipping
+            [colour_hair] => 
+            [editor_pick] => 
+            [stocklocation] => In stock
+            [description] => Love beautifully manicured nails but don’t have the time or energy to paint them? Incoco Nail Polish Appliqué Strips are made from 100% real nail polish, contain a base, colour and top coat and can be applied quickly and easily. Plus they’re super flexible and come in a variety of different shapes, so you can match your natural nail shape perfectly. No more spills, smudges or drying time! Once the strips are stuck down, they last for up to ten days, so you can enjoy gorgeous, long-lasting colour, without any fuss. Sound tricky? Watch this awesome video here on how to apply.
+ 
+Want a sophisticated mani with a touch of fun? Golden Lattice is a beautiful, finely detailed print, perfect for spicing up the elegant look.
+ 
+Want to learn more about the brand? Click here.
+ 
+Want to hear our thoughts on Incoco? Click here.
+
+            [short_description] => Sophisticated nails in a flash- no more drying time!
+            [meta_keyword] => 
+            [custom_layout_update] => 
+            [beauty_review] => Of all the makeup looks out there, beautifully painted nails are my absolute favourite. If I had the time and the patience, my nails would be a different colour every week and I’d take nail art to the next level. However, as I’m always in a rush, I tend to smudge my nail polish almost every time. Plus having to wait for my base coat, two colour coats and a top coat to dry, means I try doing things with wet nails, only to ruin my mani.
+ 
+I’d heard of nail strips before, but I never tried them because I didn’t believe a “sticker” would last any longer than normal nail polish, plus it seemed tricky to cut them into shape. Incoco Nail Polish Appliqué Strips proved me wrong, and since trying them out, I will never look at nail art in the same way- I was totally blown away! The strips are made from 100% real nail polish, and contain a base coat, colour coat and top coat. Free of formaldehyde and toluene, they won’t damage your nails either, so you can chop and change without worrying about harmful ingredients. They’re available in over 100 colours and styles, and for my first time, I chose a hot pink. One of the things I loved most about the product is that the strips come in a variety of different sizes, so you can match them to fit your nail shape perfectly. They’re flexible and stretch easily, so you can gently pull at them to make them fit over your whole nail. Once you’ve selected the right size, you gently peel the strip off its backing paper, place on your nail, stretch horizontally and across (if needed), fold the excess strip over the edge of your nail, and file it off. If you make a mistake you can gently peel the strip off and re-apply (provided you haven’t smoothed it out and filed the edge off). No mess, no smudges, no unpleasant smell and best of all, no waiting for liquid polish to dry. When they start to wear off or you get tired of the colour, you just lightly wipe over them with some regular nail polish remover on a piece of cotton wool. This was the fastest I’ve ever done my nails and the strips were super easy to apply too. It looked like I was wearing normal nail polish, except it had a very glossy shine to it that you don’t often find in liquid nail colours. The colour lasted a full week before it began to chip (to me this is extremely long, considering I’m always using my hands and normal polish lasts about three days). I got loads of compliments and was even asked if I’d had my nails done professionally. I’ll definitely be trying these strips again, and I think I’ll pick a colourful print next time.
+
+            [special_from_date] => 
+            [special_to_date] => 
+            [news_from_date] => 
+            [news_to_date] => 
+            [custom_design_from] => 
+            [custom_design_to] => 
+            [qty] => 6.0000
+            [min_qty] => 0.0000
+            [use_config_min_qty] => 1
+            [is_qty_decimal] => 0
+            [backorders] => 0
+            [use_config_backorders] => 1
+            [min_sale_qty] => 1.0000
+            [use_config_min_sale_qty] => 1
+            [max_sale_qty] => 10000.0000
+            [use_config_max_sale_qty] => 1
+            [is_in_stock] => 1
+            [low_stock_date] => 
+            [notify_stock_qty] => 1.0000
+            [use_config_notify_stock_qty] => 1
+            [manage_stock] => 1
+            [use_config_manage_stock] => 1
+            [stock_status_changed_auto] => 0
+            [use_config_qty_increments] => 1
+            [qty_increments] => 0.0000
+            [use_config_enable_qty_inc] => 1
+            [enable_qty_increments] => 0
+            [is_decimal_divided] => 0
+            [stock_status_changed_automatically] => 0
+            [use_config_enable_qty_increments] => 1
+            [product_name] => Golden Lattice Nail Strips
+            [store_id] => 0
+            [product_type_id] => simple
+            [product_status_changed] => 
+            [product_changed_websites] => 
+            [green_prod] => 
+            [subscription_product] => 
+            [frequency] => 
+        )
+
+)
+
+/engines/magmi_productimportengine.php:1482 - Magmi_ProductImportEngine->processDataSourceLine
+----------------------------------------
+Array
+(
+    [0] => Array
+        (
+            [store] => admin
+            [websites] => base
+            [attribute_set] => Default
+            [type] => simple
+            [category_ids] => 8,59,123,150,151
+            [sku] => 0001_mu
+            [has_options] => 0
+            [name] => Golden Lattice Nail Strips
+            [meta_title] => Incoco Golden Lattice Nail Strips
+            [meta_description] => Incoco Golden Lattice Nail Strips
+            [image] => /i/n/incoco_golden_lattice_nail_strips_3.jpg
+            [small_image] => /i/n/incoco_golden_lattice_nail_strips_3.jpg
+            [thumbnail] => /i/n/incoco_golden_lattice_nail_strips_3.jpg
+            [url_key] => too-faced-everyday-amazing-eyes-kit
+            [url_path] => too-faced-everyday-amazing-eyes-kit.html
+            [custom_design] => 
+            [page_layout] => No layout updates
+            [options_container] => Block after Info Column
+            [image_label] => 
+            [small_image_label] => 
+            [thumbnail_label] => 
+            [country_of_manufacture] =>  
+            [msrp_enabled] => Use config
+            [msrp_display_actual_price_type] => Use config
+            [gift_message_available] => No
+            [size] => 
+            [complextion_color] => 
+            [volume] => 
+            [allergens] => 
+            [ingredients] => 
+            [youtube] => 
+            [brand] => Incoco
+            [age] => Under 25
+            [ave_spend] => Below R200
+            [burn] => 
+            [describe_hair] => 
+            [fragrance_pref] => 
+            [hair_color] => 
+            [hair_concern] => 
+            [hair_dye_colour] => 
+            [hair_length] => 
+            [hair_texture] => 
+            [skin_concern] => 
+            [skin_type] => 
+            [scent] => 
+            [price] => 100.0000
+            [special_price] => 
+            [weight] => 0.0000
+            [msrp] => 
+            [manufacturer] => 
+            [color] => 
+            [status] => Enabled
+            [is_recurring] => No
+            [visibility] => Catalog, Search
+            [enable_googlecheckout] => Yes
+            [tax_class_id] => Shipping
+            [colour_hair] => 
+            [editor_pick] => 
+            [stocklocation] => In stock
+            [description] => Love beautifully manicured nails but don’t have the time or energy to paint them? Incoco Nail Polish Appliqué Strips are made from 100% real nail polish, contain a base, colour and top coat and can be applied quickly and easily. Plus they’re super flexible and come in a variety of different shapes, so you can match your natural nail shape perfectly. No more spills, smudges or drying time! Once the strips are stuck down, they last for up to ten days, so you can enjoy gorgeous, long-lasting colour, without any fuss. Sound tricky? Watch this awesome video here on how to apply.
+ 
+Want a sophisticated mani with a touch of fun? Golden Lattice is a beautiful, finely detailed print, perfect for spicing up the elegant look.
+ 
+Want to learn more about the brand? Click here.
+ 
+Want to hear our thoughts on Incoco? Click here.
+
+            [short_description] => Sophisticated nails in a flash- no more drying time!
+            [meta_keyword] => 
+            [custom_layout_update] => 
+            [beauty_review] => Of all the makeup looks out there, beautifully painted nails are my absolute favourite. If I had the time and the patience, my nails would be a different colour every week and I’d take nail art to the next level. However, as I’m always in a rush, I tend to smudge my nail polish almost every time. Plus having to wait for my base coat, two colour coats and a top coat to dry, means I try doing things with wet nails, only to ruin my mani.
+ 
+I’d heard of nail strips before, but I never tried them because I didn’t believe a “sticker” would last any longer than normal nail polish, plus it seemed tricky to cut them into shape. Incoco Nail Polish Appliqué Strips proved me wrong, and since trying them out, I will never look at nail art in the same way- I was totally blown away! The strips are made from 100% real nail polish, and contain a base coat, colour coat and top coat. Free of formaldehyde and toluene, they won’t damage your nails either, so you can chop and change without worrying about harmful ingredients. They’re available in over 100 colours and styles, and for my first time, I chose a hot pink. One of the things I loved most about the product is that the strips come in a variety of different sizes, so you can match them to fit your nail shape perfectly. They’re flexible and stretch easily, so you can gently pull at them to make them fit over your whole nail. Once you’ve selected the right size, you gently peel the strip off its backing paper, place on your nail, stretch horizontally and across (if needed), fold the excess strip over the edge of your nail, and file it off. If you make a mistake you can gently peel the strip off and re-apply (provided you haven’t smoothed it out and filed the edge off). No mess, no smudges, no unpleasant smell and best of all, no waiting for liquid polish to dry. When they start to wear off or you get tired of the colour, you just lightly wipe over them with some regular nail polish remover on a piece of cotton wool. This was the fastest I’ve ever done my nails and the strips were super easy to apply too. It looked like I was wearing normal nail polish, except it had a very glossy shine to it that you don’t often find in liquid nail colours. The colour lasted a full week before it began to chip (to me this is extremely long, considering I’m always using my hands and normal polish lasts about three days). I got loads of compliments and was even asked if I’d had my nails done professionally. I’ll definitely be trying these strips again, and I think I’ll pick a colourful print next time.
+
+            [special_from_date] => 
+            [special_to_date] => 
+            [news_from_date] => 
+            [news_to_date] => 
+            [custom_design_from] => 
+            [custom_design_to] => 
+            [qty] => 6.0000
+            [min_qty] => 0.0000
+            [use_config_min_qty] => 1
+            [is_qty_decimal] => 0
+            [backorders] => 0
+            [use_config_backorders] => 1
+            [min_sale_qty] => 1.0000
+            [use_config_min_sale_qty] => 1
+            [max_sale_qty] => 10000.0000
+            [use_config_max_sale_qty] => 1
+            [is_in_stock] => 1
+            [low_stock_date] => 
+            [notify_stock_qty] => 1.0000
+            [use_config_notify_stock_qty] => 1
+            [manage_stock] => 1
+            [use_config_manage_stock] => 1
+            [stock_status_changed_auto] => 0
+            [use_config_qty_increments] => 1
+            [qty_increments] => 0.0000
+            [use_config_enable_qty_inc] => 1
+            [enable_qty_increments] => 0
+            [is_decimal_divided] => 0
+            [stock_status_changed_automatically] => 0
+            [use_config_enable_qty_increments] => 1
+            [product_name] => Golden Lattice Nail Strips
+            [store_id] => 0
+            [product_type_id] => simple
+            [product_status_changed] => 
+            [product_changed_websites] => 
+            [green_prod] => 
+            [subscription_product] => 
+            [frequency] => 
+        )
+
+    [1] => 1
+    [2] => 1343765904.7854
+    [3] => 1343765904.7859
+    [4] => 0
+    [5] => 0
+)
+
+/inc/magmi_engine.php:378 - Magmi_ProductImportEngine->engineRun
+----------------------------------------
+Array
+(
+    [0] => Array
+        (
+            [engine] => magmi_productimportengine:Magmi_ProductImportEngine
+            [run] => import
+            [logfile] => progress.txt
+            [profile] => default
+            [mode] => create
+            [_] => 
+        )
+
+)
+
+/web/magmi_run.php:84 - Magmi_Engine->run
+----------------------------------------
+Array
+(
+    [0] => Array
+        (
+            [engine] => magmi_productimportengine:Magmi_ProductImportEngine
+            [run] => import
+            [logfile] => progress.txt
+            [profile] => default
+            [mode] => create
+            [_] => 
+        )
+
+)
+
++++++++++++++++++++++++++++++
+CONTEXT DUMP
++++++++++++++++++++++++++++++
+Magmi_ProductImportEngine Object
+(
+    [attrinfo] => Array
+        (
+            [name] => Array
+                (
+                    [attribute_id] => 96
+                    [entity_type_id] => 10
+                    [attribute_code] => name
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => varchar
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => text
+                    [frontend_label] => Name
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 1
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 0
+                )
+
+            [description] => Array
+                (
+                    [attribute_id] => 97
+                    [entity_type_id] => 10
+                    [attribute_code] => description
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => text
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => textarea
+                    [frontend_label] => Description
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 1
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 0
+                )
+
+            [sku] => Array
+                (
+                    [attribute_id] => 98
+                    [entity_type_id] => 10
+                    [attribute_code] => sku
+                    [attribute_model] => 
+                    [backend_model] => catalog/product_attribute_backend_sku
+                    [backend_type] => static
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => text
+                    [frontend_label] => SKU
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 1
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 1
+                    [note] => 
+                    [is_global] => 1
+                )
+
+            [price] => Array
+                (
+                    [attribute_id] => 99
+                    [entity_type_id] => 10
+                    [attribute_code] => price
+                    [attribute_model] => 
+                    [backend_model] => catalog/product_attribute_backend_price
+                    [backend_type] => decimal
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => price
+                    [frontend_label] => Price
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 1
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 2
+                )
+
+            [weight] => Array
+                (
+                    [attribute_id] => 101
+                    [entity_type_id] => 10
+                    [attribute_code] => weight
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => decimal
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => weight
+                    [frontend_label] => Weight
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 1
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 1
+                )
+
+            [manufacturer] => Array
+                (
+                    [attribute_id] => 102
+                    [entity_type_id] => 10
+                    [attribute_code] => manufacturer
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => int
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => select
+                    [frontend_label] => Manufacturer
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 1
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 1
+                )
+
+            [meta_title] => Array
+                (
+                    [attribute_id] => 103
+                    [entity_type_id] => 10
+                    [attribute_code] => meta_title
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => varchar
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => text
+                    [frontend_label] => Meta Title
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 0
+                )
+
+            [meta_keyword] => Array
+                (
+                    [attribute_id] => 104
+                    [entity_type_id] => 10
+                    [attribute_code] => meta_keyword
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => text
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => textarea
+                    [frontend_label] => Meta Keywords
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 0
+                )
+
+            [meta_description] => Array
+                (
+                    [attribute_id] => 105
+                    [entity_type_id] => 10
+                    [attribute_code] => meta_description
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => varchar
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => textarea
+                    [frontend_label] => Meta Description
+                    [frontend_class] => validate-length maximum-length-255
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => Maximum 255 chars
+                    [is_global] => 0
+                )
+
+            [image] => Array
+                (
+                    [attribute_id] => 106
+                    [entity_type_id] => 10
+                    [attribute_code] => image
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => varchar
+                    [backend_table] => 
+                    [frontend_model] => catalog/product_attribute_frontend_image
+                    [frontend_input] => media_image
+                    [frontend_label] => Base Image
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 0
+                )
+
+            [small_image] => Array
+                (
+                    [attribute_id] => 109
+                    [entity_type_id] => 10
+                    [attribute_code] => small_image
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => varchar
+                    [backend_table] => 
+                    [frontend_model] => catalog/product_attribute_frontend_image
+                    [frontend_input] => media_image
+                    [frontend_label] => Small Image
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 0
+                )
+
+            [color] => Array
+                (
+                    [attribute_id] => 272
+                    [entity_type_id] => 10
+                    [attribute_code] => color
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => int
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => select
+                    [frontend_label] => Color
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 1
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 1
+                )
+
+            [status] => Array
+                (
+                    [attribute_id] => 273
+                    [entity_type_id] => 10
+                    [attribute_code] => status
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => int
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => select
+                    [frontend_label] => Status
+                    [frontend_class] => 
+                    [source_model] => catalog/product_status
+                    [is_required] => 1
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 2
+                )
+
+            [tax_class_id] => Array
+                (
+                    [attribute_id] => 274
+                    [entity_type_id] => 10
+                    [attribute_code] => tax_class_id
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => int
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => select
+                    [frontend_label] => Tax Class
+                    [frontend_class] => 
+                    [source_model] => tax/class_source_product
+                    [is_required] => 1
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 0
+                )
+
+            [url_key] => Array
+                (
+                    [attribute_id] => 481
+                    [entity_type_id] => 10
+                    [attribute_code] => url_key
+                    [attribute_model] => 
+                    [backend_model] => catalog/product_attribute_backend_urlkey
+                    [backend_type] => varchar
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => text
+                    [frontend_label] => URL Key
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 1
+                )
+
+            [thumbnail] => Array
+                (
+                    [attribute_id] => 493
+                    [entity_type_id] => 10
+                    [attribute_code] => thumbnail
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => varchar
+                    [backend_table] => 
+                    [frontend_model] => catalog/product_attribute_frontend_image
+                    [frontend_input] => media_image
+                    [frontend_label] => Thumbnail
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 0
+                )
+
+            [short_description] => Array
+                (
+                    [attribute_id] => 506
+                    [entity_type_id] => 10
+                    [attribute_code] => short_description
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => text
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => textarea
+                    [frontend_label] => Short Description
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 1
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 0
+                )
+
+            [visibility] => Array
+                (
+                    [attribute_id] => 526
+                    [entity_type_id] => 10
+                    [attribute_code] => visibility
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => int
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => select
+                    [frontend_label] => Visibility
+                    [frontend_class] => 
+                    [source_model] => catalog/product_visibility
+                    [is_required] => 1
+                    [is_user_defined] => 0
+                    [default_value] => 4
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 0
+                )
+
+            [custom_layout_update] => Array
+                (
+                    [attribute_id] => 531
+                    [entity_type_id] => 10
+                    [attribute_code] => custom_layout_update
+                    [attribute_model] => 
+                    [backend_model] => catalog/attribute_backend_customlayoutupdate
+                    [backend_type] => text
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => textarea
+                    [frontend_label] => Custom Layout Update
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 1
+                )
+
+            [gift_message_available] => Array
+                (
+                    [attribute_id] => 562
+                    [entity_type_id] => 10
+                    [attribute_code] => gift_message_available
+                    [attribute_model] => 
+                    [backend_model] => catalog/product_attribute_backend_boolean
+                    [backend_type] => varchar
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => select
+                    [frontend_label] => Allow Gift Message
+                    [frontend_class] => 
+                    [source_model] => eav/entity_attribute_source_boolean
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 1
+                )
+
+            [special_price] => Array
+                (
+                    [attribute_id] => 567
+                    [entity_type_id] => 10
+                    [attribute_code] => special_price
+                    [attribute_model] => 
+                    [backend_model] => catalog/product_attribute_backend_price
+                    [backend_type] => decimal
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => price
+                    [frontend_label] => Special Price
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 2
+                )
+
+            [special_from_date] => Array
+                (
+                    [attribute_id] => 568
+                    [entity_type_id] => 10
+                    [attribute_code] => special_from_date
+                    [attribute_model] => 
+                    [backend_model] => catalog/product_attribute_backend_startdate
+                    [backend_type] => datetime
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => date
+                    [frontend_label] => Special Price From Date
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 1
+                )
+
+            [special_to_date] => Array
+                (
+                    [attribute_id] => 569
+                    [entity_type_id] => 10
+                    [attribute_code] => special_to_date
+                    [attribute_model] => 
+                    [backend_model] => eav/entity_attribute_backend_datetime
+                    [backend_type] => datetime
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => date
+                    [frontend_label] => Special Price To Date
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 1
+                )
+
+            [url_path] => Array
+                (
+                    [attribute_id] => 570
+                    [entity_type_id] => 10
+                    [attribute_code] => url_path
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => varchar
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => 
+                    [frontend_label] => 
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 0
+                )
+
+            [custom_design] => Array
+                (
+                    [attribute_id] => 571
+                    [entity_type_id] => 10
+                    [attribute_code] => custom_design
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => varchar
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => select
+                    [frontend_label] => Custom Design
+                    [frontend_class] => 
+                    [source_model] => core/design_source_design
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 0
+                )
+
+            [custom_design_from] => Array
+                (
+                    [attribute_id] => 572
+                    [entity_type_id] => 10
+                    [attribute_code] => custom_design_from
+                    [attribute_model] => 
+                    [backend_model] => eav/entity_attribute_backend_datetime
+                    [backend_type] => datetime
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => date
+                    [frontend_label] => Active From
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 0
+                )
+
+            [custom_design_to] => Array
+                (
+                    [attribute_id] => 573
+                    [entity_type_id] => 10
+                    [attribute_code] => custom_design_to
+                    [attribute_model] => 
+                    [backend_model] => eav/entity_attribute_backend_datetime
+                    [backend_type] => datetime
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => date
+                    [frontend_label] => Active To
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 0
+                )
+
+            [news_from_date] => Array
+                (
+                    [attribute_id] => 704
+                    [entity_type_id] => 10
+                    [attribute_code] => news_from_date
+                    [attribute_model] => 
+                    [backend_model] => eav/entity_attribute_backend_datetime
+                    [backend_type] => datetime
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => date
+                    [frontend_label] => Set Product as New from Date
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 1
+                )
+
+            [news_to_date] => Array
+                (
+                    [attribute_id] => 705
+                    [entity_type_id] => 10
+                    [attribute_code] => news_to_date
+                    [attribute_model] => 
+                    [backend_model] => eav/entity_attribute_backend_datetime
+                    [backend_type] => datetime
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => date
+                    [frontend_label] => Set Product as New to Date
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 1
+                )
+
+            [options_container] => Array
+                (
+                    [attribute_id] => 836
+                    [entity_type_id] => 10
+                    [attribute_code] => options_container
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => varchar
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => select
+                    [frontend_label] => Display Product Options In
+                    [frontend_class] => 
+                    [source_model] => catalog/entity_product_attribute_design_options_container
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => container2
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 0
+                )
+
+            [has_options] => Array
+                (
+                    [attribute_id] => 838
+                    [entity_type_id] => 10
+                    [attribute_code] => has_options
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => static
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => text
+                    [frontend_label] => 
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 1
+                )
+
+            [image_label] => Array
+                (
+                    [attribute_id] => 879
+                    [entity_type_id] => 10
+                    [attribute_code] => image_label
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => varchar
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => text
+                    [frontend_label] => Image Label
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 0
+                )
+
+            [small_image_label] => Array
+                (
+                    [attribute_id] => 880
+                    [entity_type_id] => 10
+                    [attribute_code] => small_image_label
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => varchar
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => text
+                    [frontend_label] => Small Image Label
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 0
+                )
+
+            [thumbnail_label] => Array
+                (
+                    [attribute_id] => 881
+                    [entity_type_id] => 10
+                    [attribute_code] => thumbnail_label
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => varchar
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => text
+                    [frontend_label] => Thumbnail Label
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 0
+                )
+
+            [enable_googlecheckout] => Array
+                (
+                    [attribute_id] => 903
+                    [entity_type_id] => 10
+                    [attribute_code] => enable_googlecheckout
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => int
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => select
+                    [frontend_label] => Is Product Available for Purchase with Google Checkout
+                    [frontend_class] => 
+                    [source_model] => eav/entity_attribute_source_boolean
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 1
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 1
+                )
+
+            [page_layout] => Array
+                (
+                    [attribute_id] => 931
+                    [entity_type_id] => 10
+                    [attribute_code] => page_layout
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => varchar
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => select
+                    [frontend_label] => Page Layout
+                    [frontend_class] => 
+                    [source_model] => catalog/product_attribute_source_layout
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 0
+                )
+
+            [is_recurring] => Array
+                (
+                    [attribute_id] => 935
+                    [entity_type_id] => 10
+                    [attribute_code] => is_recurring
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => int
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => select
+                    [frontend_label] => Enable Recurring Profile
+                    [frontend_class] => 
+                    [source_model] => eav/entity_attribute_source_boolean
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => Products with recurring profile participate in catalog as nominal items.
+                    [is_global] => 1
+                )
+
+            [country_of_manufacture] => Array
+                (
+                    [attribute_id] => 940
+                    [entity_type_id] => 10
+                    [attribute_code] => country_of_manufacture
+                    [attribute_model] => 
+                    [backend_model] => 
+                    [backend_type] => varchar
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => select
+                    [frontend_label] => Country of Manufacture
+                    [frontend_class] => 
+                    [source_model] => catalog/product_attribute_source_countryofmanufacture
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 2
+                )
+
+            [msrp_enabled] => Array
+                (
+                    [attribute_id] => 941
+                    [entity_type_id] => 10
+                    [attribute_code] => msrp_enabled
+                    [attribute_model] => 
+                    [backend_model] => catalog/product_attribute_backend_msrp
+                    [backend_type] => varchar
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => select
+                    [frontend_label] => Apply MAP
+                    [frontend_class] => 
+                    [source_model] => catalog/product_attribute_source_msrp_type_enabled
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 2
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 2
+                )
+
+            [msrp_display_actual_price_type] => Array
+                (
+                    [attribute_id] => 942
+                    [entity_type_id] => 10
+                    [attribute_code] => msrp_display_actual_price_type
+                    [attribute_model] => 
+                    [backend_model] => catalog/product_attribute_backend_boolean
+                    [backend_type] => varchar
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => select
+                    [frontend_label] => Display Actual Price
+                    [frontend_class] => 
+                    [source_model] => catalog/product_attribute_source_msrp_type_price
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 4
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 2
+                )
+
+            [msrp] => Array
+                (
+                    [attribute_id] => 943
+                    [entity_type_id] => 10
+                    [attribute_code] => msrp
+                    [attribute_model] => 
+                    [backend_model] => catalog/product_attribute_backend_price
+                    [backend_type] => decimal
+                    [backend_table] => 
+                    [frontend_model] => 
+                    [frontend_input] => price
+                    [frontend_label] => Manufacturer's Suggested Retail Price
+                    [frontend_class] => 
+                    [source_model] => 
+                    [is_required] => 0
+                    [is_user_defined] => 0
+                    [default_value] => 
+                    [is_unique] => 0
+                    [note] => 
+                    [is_global] => 2
+                )
+
+            [store] => 
+            [websites] => 
+            [attribute_set] => 
+            [type] => 
+            [category_ids] => 
+            [size] => 
+            [complextion_color] => 
+            [volume] => 
+            [allergens] => 
+            [ingredients] => 
+            [youtube] => 
+            [brand] => 
+            [age] => 
+            [ave_spend] => 
+            [burn] => 
+            [describe_hair] => 
+            [fragrance_pref] => 
+            [hair_color] => 
+            [hair_concern] => 
+            [hair_dye_colour] => 
+            [hair_length] => 
+            [hair_texture] => 
+            [skin_concern] => 
+            [skin_type] => 
+            [scent] => 
+            [colour_hair] => 
+            [editor_pick] => 
+            [stocklocation] => 
+            [beauty_review] => 
+            [qty] => 
+            [min_qty] => 
+            [use_config_min_qty] => 
+            [is_qty_decimal] => 
+            [backorders] => 
+            [use_config_backorders] => 
+            [min_sale_qty] => 
+            [use_config_min_sale_qty] => 
+            [max_sale_qty] => 
+            [use_config_max_sale_qty] => 
+            [is_in_stock] => 
+            [low_stock_date] => 
+            [notify_stock_qty] => 
+            [use_config_notify_stock_qty] => 
+            [manage_stock] => 
+            [use_config_manage_stock] => 
+            [stock_status_changed_auto] => 
+            [use_config_qty_increments] => 
+            [qty_increments] => 
+            [use_config_enable_qty_inc] => 
+            [enable_qty_increments] => 
+            [is_decimal_divided] => 
+            [stock_status_changed_automatically] => 
+            [use_config_enable_qty_increments] => 
+            [product_name] => 
+            [store_id] => 
+            [product_type_id] => 
+            [product_status_changed] => 
+            [product_changed_websites] => 
+            [green_prod] => 
+            [subscription_product] => 
+            [frequency] => 
+        )
+
+    [attrbytype] => Array
+        (
+            [varchar] => Array
+                (
+                    [data] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [attribute_id] => 96
+                                    [entity_type_id] => 10
+                                    [attribute_code] => name
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => varchar
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => text
+                                    [frontend_label] => Name
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 1
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [attribute_id] => 103
+                                    [entity_type_id] => 10
+                                    [attribute_code] => meta_title
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => varchar
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => text
+                                    [frontend_label] => Meta Title
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [attribute_id] => 105
+                                    [entity_type_id] => 10
+                                    [attribute_code] => meta_description
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => varchar
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => textarea
+                                    [frontend_label] => Meta Description
+                                    [frontend_class] => validate-length maximum-length-255
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => Maximum 255 chars
+                                    [is_global] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [attribute_id] => 106
+                                    [entity_type_id] => 10
+                                    [attribute_code] => image
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => varchar
+                                    [backend_table] => 
+                                    [frontend_model] => catalog/product_attribute_frontend_image
+                                    [frontend_input] => media_image
+                                    [frontend_label] => Base Image
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 0
+                                )
+
+                            [4] => Array
+                                (
+                                    [attribute_id] => 109
+                                    [entity_type_id] => 10
+                                    [attribute_code] => small_image
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => varchar
+                                    [backend_table] => 
+                                    [frontend_model] => catalog/product_attribute_frontend_image
+                                    [frontend_input] => media_image
+                                    [frontend_label] => Small Image
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 0
+                                )
+
+                            [5] => Array
+                                (
+                                    [attribute_id] => 481
+                                    [entity_type_id] => 10
+                                    [attribute_code] => url_key
+                                    [attribute_model] => 
+                                    [backend_model] => catalog/product_attribute_backend_urlkey
+                                    [backend_type] => varchar
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => text
+                                    [frontend_label] => URL Key
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 1
+                                )
+
+                            [6] => Array
+                                (
+                                    [attribute_id] => 493
+                                    [entity_type_id] => 10
+                                    [attribute_code] => thumbnail
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => varchar
+                                    [backend_table] => 
+                                    [frontend_model] => catalog/product_attribute_frontend_image
+                                    [frontend_input] => media_image
+                                    [frontend_label] => Thumbnail
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 0
+                                )
+
+                            [7] => Array
+                                (
+                                    [attribute_id] => 562
+                                    [entity_type_id] => 10
+                                    [attribute_code] => gift_message_available
+                                    [attribute_model] => 
+                                    [backend_model] => catalog/product_attribute_backend_boolean
+                                    [backend_type] => varchar
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => select
+                                    [frontend_label] => Allow Gift Message
+                                    [frontend_class] => 
+                                    [source_model] => eav/entity_attribute_source_boolean
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 1
+                                )
+
+                            [8] => Array
+                                (
+                                    [attribute_id] => 570
+                                    [entity_type_id] => 10
+                                    [attribute_code] => url_path
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => varchar
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => 
+                                    [frontend_label] => 
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 0
+                                )
+
+                            [9] => Array
+                                (
+                                    [attribute_id] => 571
+                                    [entity_type_id] => 10
+                                    [attribute_code] => custom_design
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => varchar
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => select
+                                    [frontend_label] => Custom Design
+                                    [frontend_class] => 
+                                    [source_model] => core/design_source_design
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 0
+                                )
+
+                            [10] => Array
+                                (
+                                    [attribute_id] => 836
+                                    [entity_type_id] => 10
+                                    [attribute_code] => options_container
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => varchar
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => select
+                                    [frontend_label] => Display Product Options In
+                                    [frontend_class] => 
+                                    [source_model] => catalog/entity_product_attribute_design_options_container
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => container2
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 0
+                                )
+
+                            [11] => Array
+                                (
+                                    [attribute_id] => 879
+                                    [entity_type_id] => 10
+                                    [attribute_code] => image_label
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => varchar
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => text
+                                    [frontend_label] => Image Label
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 0
+                                )
+
+                            [12] => Array
+                                (
+                                    [attribute_id] => 880
+                                    [entity_type_id] => 10
+                                    [attribute_code] => small_image_label
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => varchar
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => text
+                                    [frontend_label] => Small Image Label
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 0
+                                )
+
+                            [13] => Array
+                                (
+                                    [attribute_id] => 881
+                                    [entity_type_id] => 10
+                                    [attribute_code] => thumbnail_label
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => varchar
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => text
+                                    [frontend_label] => Thumbnail Label
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 0
+                                )
+
+                            [14] => Array
+                                (
+                                    [attribute_id] => 931
+                                    [entity_type_id] => 10
+                                    [attribute_code] => page_layout
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => varchar
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => select
+                                    [frontend_label] => Page Layout
+                                    [frontend_class] => 
+                                    [source_model] => catalog/product_attribute_source_layout
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 0
+                                )
+
+                            [15] => Array
+                                (
+                                    [attribute_id] => 940
+                                    [entity_type_id] => 10
+                                    [attribute_code] => country_of_manufacture
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => varchar
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => select
+                                    [frontend_label] => Country of Manufacture
+                                    [frontend_class] => 
+                                    [source_model] => catalog/product_attribute_source_countryofmanufacture
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 2
+                                )
+
+                            [16] => Array
+                                (
+                                    [attribute_id] => 941
+                                    [entity_type_id] => 10
+                                    [attribute_code] => msrp_enabled
+                                    [attribute_model] => 
+                                    [backend_model] => catalog/product_attribute_backend_msrp
+                                    [backend_type] => varchar
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => select
+                                    [frontend_label] => Apply MAP
+                                    [frontend_class] => 
+                                    [source_model] => catalog/product_attribute_source_msrp_type_enabled
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 2
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 2
+                                )
+
+                            [17] => Array
+                                (
+                                    [attribute_id] => 942
+                                    [entity_type_id] => 10
+                                    [attribute_code] => msrp_display_actual_price_type
+                                    [attribute_model] => 
+                                    [backend_model] => catalog/product_attribute_backend_boolean
+                                    [backend_type] => varchar
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => select
+                                    [frontend_label] => Display Actual Price
+                                    [frontend_class] => 
+                                    [source_model] => catalog/product_attribute_source_msrp_type_price
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 4
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 2
+                                )
+
+                        )
+
+                    [ids] => 96,103,105,106,109,481,493,562,570,571,836,879,880,881,931,940,941,942
+                )
+
+            [text] => Array
+                (
+                    [data] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [attribute_id] => 97
+                                    [entity_type_id] => 10
+                                    [attribute_code] => description
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => text
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => textarea
+                                    [frontend_label] => Description
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 1
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [attribute_id] => 104
+                                    [entity_type_id] => 10
+                                    [attribute_code] => meta_keyword
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => text
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => textarea
+                                    [frontend_label] => Meta Keywords
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [attribute_id] => 506
+                                    [entity_type_id] => 10
+                                    [attribute_code] => short_description
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => text
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => textarea
+                                    [frontend_label] => Short Description
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 1
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [attribute_id] => 531
+                                    [entity_type_id] => 10
+                                    [attribute_code] => custom_layout_update
+                                    [attribute_model] => 
+                                    [backend_model] => catalog/attribute_backend_customlayoutupdate
+                                    [backend_type] => text
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => textarea
+                                    [frontend_label] => Custom Layout Update
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 1
+                                )
+
+                        )
+
+                    [ids] => 96,103,105,106,109,481,493,562,570,571,836,879,880,881,931,940,941,942,97,104,506,531
+                )
+
+            [static] => Array
+                (
+                    [data] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [attribute_id] => 98
+                                    [entity_type_id] => 10
+                                    [attribute_code] => sku
+                                    [attribute_model] => 
+                                    [backend_model] => catalog/product_attribute_backend_sku
+                                    [backend_type] => static
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => text
+                                    [frontend_label] => SKU
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 1
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 1
+                                    [note] => 
+                                    [is_global] => 1
+                                )
+
+                            [1] => Array
+                                (
+                                    [attribute_id] => 838
+                                    [entity_type_id] => 10
+                                    [attribute_code] => has_options
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => static
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => text
+                                    [frontend_label] => 
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 1
+                                )
+
+                        )
+
+                    [ids] => 96,103,105,106,109,481,493,562,570,571,836,879,880,881,931,940,941,942,97,104,506,531,98,838
+                )
+
+            [decimal] => Array
+                (
+                    [data] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [attribute_id] => 99
+                                    [entity_type_id] => 10
+                                    [attribute_code] => price
+                                    [attribute_model] => 
+                                    [backend_model] => catalog/product_attribute_backend_price
+                                    [backend_type] => decimal
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => price
+                                    [frontend_label] => Price
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 1
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 2
+                                )
+
+                            [1] => Array
+                                (
+                                    [attribute_id] => 101
+                                    [entity_type_id] => 10
+                                    [attribute_code] => weight
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => decimal
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => weight
+                                    [frontend_label] => Weight
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 1
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 1
+                                )
+
+                            [2] => Array
+                                (
+                                    [attribute_id] => 567
+                                    [entity_type_id] => 10
+                                    [attribute_code] => special_price
+                                    [attribute_model] => 
+                                    [backend_model] => catalog/product_attribute_backend_price
+                                    [backend_type] => decimal
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => price
+                                    [frontend_label] => Special Price
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 2
+                                )
+
+                            [3] => Array
+                                (
+                                    [attribute_id] => 943
+                                    [entity_type_id] => 10
+                                    [attribute_code] => msrp
+                                    [attribute_model] => 
+                                    [backend_model] => catalog/product_attribute_backend_price
+                                    [backend_type] => decimal
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => price
+                                    [frontend_label] => Manufacturer's Suggested Retail Price
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 2
+                                )
+
+                        )
+
+                    [ids] => 96,103,105,106,109,481,493,562,570,571,836,879,880,881,931,940,941,942,97,104,506,531,98,838,99,101,567,943
+                )
+
+            [int] => Array
+                (
+                    [data] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [attribute_id] => 102
+                                    [entity_type_id] => 10
+                                    [attribute_code] => manufacturer
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => int
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => select
+                                    [frontend_label] => Manufacturer
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 1
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 1
+                                )
+
+                            [1] => Array
+                                (
+                                    [attribute_id] => 272
+                                    [entity_type_id] => 10
+                                    [attribute_code] => color
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => int
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => select
+                                    [frontend_label] => Color
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 1
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 1
+                                )
+
+                            [2] => Array
+                                (
+                                    [attribute_id] => 273
+                                    [entity_type_id] => 10
+                                    [attribute_code] => status
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => int
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => select
+                                    [frontend_label] => Status
+                                    [frontend_class] => 
+                                    [source_model] => catalog/product_status
+                                    [is_required] => 1
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 2
+                                )
+
+                            [3] => Array
+                                (
+                                    [attribute_id] => 274
+                                    [entity_type_id] => 10
+                                    [attribute_code] => tax_class_id
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => int
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => select
+                                    [frontend_label] => Tax Class
+                                    [frontend_class] => 
+                                    [source_model] => tax/class_source_product
+                                    [is_required] => 1
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 0
+                                )
+
+                            [4] => Array
+                                (
+                                    [attribute_id] => 526
+                                    [entity_type_id] => 10
+                                    [attribute_code] => visibility
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => int
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => select
+                                    [frontend_label] => Visibility
+                                    [frontend_class] => 
+                                    [source_model] => catalog/product_visibility
+                                    [is_required] => 1
+                                    [is_user_defined] => 0
+                                    [default_value] => 4
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 0
+                                )
+
+                            [5] => Array
+                                (
+                                    [attribute_id] => 903
+                                    [entity_type_id] => 10
+                                    [attribute_code] => enable_googlecheckout
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => int
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => select
+                                    [frontend_label] => Is Product Available for Purchase with Google Checkout
+                                    [frontend_class] => 
+                                    [source_model] => eav/entity_attribute_source_boolean
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 1
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 1
+                                )
+
+                            [6] => Array
+                                (
+                                    [attribute_id] => 935
+                                    [entity_type_id] => 10
+                                    [attribute_code] => is_recurring
+                                    [attribute_model] => 
+                                    [backend_model] => 
+                                    [backend_type] => int
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => select
+                                    [frontend_label] => Enable Recurring Profile
+                                    [frontend_class] => 
+                                    [source_model] => eav/entity_attribute_source_boolean
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => Products with recurring profile participate in catalog as nominal items.
+                                    [is_global] => 1
+                                )
+
+                        )
+
+                    [ids] => 96,103,105,106,109,481,493,562,570,571,836,879,880,881,931,940,941,942,97,104,506,531,98,838,99,101,567,943,102,272,273,274,526,903,935
+                )
+
+            [datetime] => Array
+                (
+                    [data] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [attribute_id] => 568
+                                    [entity_type_id] => 10
+                                    [attribute_code] => special_from_date
+                                    [attribute_model] => 
+                                    [backend_model] => catalog/product_attribute_backend_startdate
+                                    [backend_type] => datetime
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => date
+                                    [frontend_label] => Special Price From Date
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 1
+                                )
+
+                            [1] => Array
+                                (
+                                    [attribute_id] => 569
+                                    [entity_type_id] => 10
+                                    [attribute_code] => special_to_date
+                                    [attribute_model] => 
+                                    [backend_model] => eav/entity_attribute_backend_datetime
+                                    [backend_type] => datetime
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => date
+                                    [frontend_label] => Special Price To Date
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 1
+                                )
+
+                            [2] => Array
+                                (
+                                    [attribute_id] => 572
+                                    [entity_type_id] => 10
+                                    [attribute_code] => custom_design_from
+                                    [attribute_model] => 
+                                    [backend_model] => eav/entity_attribute_backend_datetime
+                                    [backend_type] => datetime
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => date
+                                    [frontend_label] => Active From
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [attribute_id] => 573
+                                    [entity_type_id] => 10
+                                    [attribute_code] => custom_design_to
+                                    [attribute_model] => 
+                                    [backend_model] => eav/entity_attribute_backend_datetime
+                                    [backend_type] => datetime
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => date
+                                    [frontend_label] => Active To
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 0
+                                )
+
+                            [4] => Array
+                                (
+                                    [attribute_id] => 704
+                                    [entity_type_id] => 10
+                                    [attribute_code] => news_from_date
+                                    [attribute_model] => 
+                                    [backend_model] => eav/entity_attribute_backend_datetime
+                                    [backend_type] => datetime
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => date
+                                    [frontend_label] => Set Product as New from Date
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 1
+                                )
+
+                            [5] => Array
+                                (
+                                    [attribute_id] => 705
+                                    [entity_type_id] => 10
+                                    [attribute_code] => news_to_date
+                                    [attribute_model] => 
+                                    [backend_model] => eav/entity_attribute_backend_datetime
+                                    [backend_type] => datetime
+                                    [backend_table] => 
+                                    [frontend_model] => 
+                                    [frontend_input] => date
+                                    [frontend_label] => Set Product as New to Date
+                                    [frontend_class] => 
+                                    [source_model] => 
+                                    [is_required] => 0
+                                    [is_user_defined] => 0
+                                    [default_value] => 
+                                    [is_unique] => 0
+                                    [note] => 
+                                    [is_global] => 1
+                                )
+
+                        )
+
+                    [ids] => 96,103,105,106,109,481,493,562,570,571,836,879,880,881,931,940,941,942,97,104,506,531,98,838,99,101,567,943,102,272,273,274,526,903,935,568,569,572,573,704,705
+                )
+
+        )
+
+    [store_ids] => Array
+        (
+        )
+
+    [status_id] => Array
+        (
+        )
+
+    [attribute_sets] => Array
+        (
+            [Default] => 9
+        )
+
+    [prod_etype] => 10
+    [sidcache] => Array
+        (
+        )
+
+    [mode] => create
+    [_attributehandlers:Magmi_ProductImportEngine:private] => Array
+        (
+            [attribute_code:.*] => Magmi_DefaultAttributeItemProcessor Object
+                (
+                    [_basecols:protected] => Array
+                        (
+                            [store] => admin
+                            [websites] => base
+                            [type] => simple
+                            [attribute_set] => Default
+                        )
+
+                    [_baseattrs:protected] => Array
+                        (
+                            [status] => 1
+                            [visibility] => 4
+                            [page_layout] => 
+                        )
+
+                    [_missingcols:protected] => Array
+                        (
+                        )
+
+                    [_missingattrs:protected] => Array
+                        (
+                        )
+
+                    [_class:protected] => Magmi_DefaultAttributeItemProcessor
+                    [_plugintype:protected] => 
+                    [_plugindir:protected] => 
+                    [_config:protected] => Magmi_PluginConfig Object
+                        (
+                            [_prefix:protected] => Magmi_DefaultAttributeItemProcessor
+                            [_conffile:protected] => 
+                            [_profile:protected] => default
+                            [_basedir:protected] => /var/www/clients/client1/web1/web/magmi/conf
+                            [_confname:protected] => /var/www/clients/client1/web1/web/magmi/conf/Magmi_DefaultAttributeItemProcessor.conf
+                            [_props:protected] => 
+                            [inifile] => 
+                            [_specialchars:protected] => Array
+                                (
+                                    ["] => :DQUOTE:
+                                    ['] => :SQUOTE:
+                                    [\t] => TAB
+                                )
+
+                        )
+
+                    [_magmiconfig:protected] => Magmi_Config Object
+                        (
+                            [_defaultconfigname:Magmi_Config:private] => 
+                            [_basedir:protected] => /var/www/clients/client1/web1/web/magmi/conf
+                            [_confname:protected] => /var/www/clients/client1/web1/web/magmi/conf/magmi.ini
+                            [_props:protected] => Array
+                                (
+                                    [DATABASE] => Array
+                                        (
+                                            [connectivity] => net
+                                            [host] => localhost
+                                            [port] => 3306
+                                            [dbname] => c1test
+                                            [user] => c1test
+                                            [password] => ryvenapa121
+                                            [table_prefix] => 
+                                        )
+
+                                    [MAGENTO] => Array
+                                        (
+                                            [version] => 1.7.x
+                                            [basedir] => ../..
+                                        )
+
+                                    [GLOBAL] => Array
+                                        (
+                                            [step] => 0.5
+                                            [multiselect_sep] => ,
+                                            [dirmask] => 755
+                                            [filemask] => 644
+                                        )
+
+                                )
+
+                            [inifile] => /var/www/clients/client1/web1/web/magmi/conf/magmi.ini
+                            [_specialchars:protected] => Array
+                                (
+                                    ["] => :DQUOTE:
+                                    ['] => :SQUOTE:
+                                    [\t] => TAB
+                                )
+
+                        )
+
+                    [_pluginmeta:protected] => 
+                    [_callers:protected] => Array
+                        (
+                            [0] => Magmi_ProductImportEngine Object
+ *RECURSION*
+                        )
+
+                    [_params] => Array
+                        (
+                            [engine] => magmi_productimportengine:Magmi_ProductImportEngine
+                            [run] => import
+                            [logfile] => progress.txt
+                            [profile] => default
+                            [mode] => create
+                            [_] => 
+                        )
+
+                )
+
+        )
+
+    [_current_row:Magmi_ProductImportEngine:private] => 1
+    [_curitemids:Magmi_ProductImportEngine:private] => Array
+        (
+            [pid] => 167
+            [sku] => 0001_mu
+            [asid] => 9
+        )
+
+    [_dstore:Magmi_ProductImportEngine:private] => Array
+        (
+            [0] => 0
+        )
+
+    [_same:Magmi_ProductImportEngine:private] => 
+    [_currentpid:Magmi_ProductImportEngine:private] => 
+    [_extra_attrs:Magmi_ProductImportEngine:private] => Array
+        (
+        )
+
+    [_profile:Magmi_ProductImportEngine:private] => default
+    [_sid_wsscope:Magmi_ProductImportEngine:private] => Array
+        (
+            [admin] => Array
+                (
+                    [0] => 0
+                )
+
+        )
+
+    [_sid_sscope:Magmi_ProductImportEngine:private] => Array
+        (
+            [admin] => Array
+                (
+                    [0] => 0
+                )
+
+        )
+
+    [_prodcols:Magmi_ProductImportEngine:private] => Array
+        (
+            [0] => entity_id
+            [1] => entity_type_id
+            [2] => attribute_set_id
+            [3] => type_id
+            [4] => sku
+            [5] => created_at
+            [6] => updated_at
+            [7] => has_options
+            [8] => required_options
+        )
+
+    [_stockcols:Magmi_ProductImportEngine:private] => Array
+        (
+        )
+
+    [_skustats:Magmi_ProductImportEngine:private] => Array
+        (
+            [nsku] => 0
+            [ok] => 0
+            [ko] => 0
+        )
+
+    [_conf:protected] => Magmi_Config Object
+        (
+            [_defaultconfigname:Magmi_Config:private] => 
+            [_basedir:protected] => /var/www/clients/client1/web1/web/magmi/conf
+            [_confname:protected] => /var/www/clients/client1/web1/web/magmi/conf/magmi.ini
+            [_props:protected] => Array
+                (
+                    [DATABASE] => Array
+                        (
+                            [connectivity] => net
+                            [host] => localhost
+                            [port] => 3306
+                            [dbname] => c1test
+                            [user] => c1test
+                            [password] => ryvenapa121
+                            [table_prefix] => 
+                        )
+
+                    [MAGENTO] => Array
+                        (
+                            [version] => 1.7.x
+                            [basedir] => ../..
+                        )
+
+                    [GLOBAL] => Array
+                        (
+                            [step] => 0.5
+                            [multiselect_sep] => ,
+                            [dirmask] => 755
+                            [filemask] => 644
+                        )
+
+                )
+
+            [inifile] => /var/www/clients/client1/web1/web/magmi/conf/magmi.ini
+            [_specialchars:protected] => Array
+                (
+                    ["] => :DQUOTE:
+                    ['] => :SQUOTE:
+                    [\t] => TAB
+                )
+
+        )
+
+    [_initialized:protected] => 1
+    [_exceptions:protected] => Array
+        (
+            [SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`c1test`.`catalog_category_product`, CONSTRAINT `FK_CAT_CTGR_PRD_CTGR_ID_CAT_CTGR_ENTT_ENTT_ID` FOREIGN KEY (`category_id`) REFERENCES `catalog_category_entity` (`entity_id`) ON DELETE CASCADE)] => Array
+                (
+                    [0] => 1
+                    [1] => 1
+                )
+
+        )
+
+    [tprefix] => 
+    [_connected:protected] => 
+    [_activeplugins:protected] => Array
+        (
+            [datasources] => Array
+                (
+                    [0] => Magmi_CSVDataSource Object
+                        (
+                            [_csvreader:protected] => Magmi_CSVReader Object
+                                (
+                                    [_filename:protected] => /var/www/clients/client1/web1/web/magmi/plugins/base/datasources/csv/downloads/export_all_products.csv
+                                    [_fh:protected] => Resource id #119
+                                    [_cols:protected] => Array
+                                        (
+                                            [0] => store
+                                            [1] => websites
+                                            [2] => attribute_set
+                                            [3] => type
+                                            [4] => category_ids
+                                            [5] => sku
+                                            [6] => has_options
+                                            [7] => name
+                                            [8] => meta_title
+                                            [9] => meta_description
+                                            [10] => image
+                                            [11] => small_image
+                                            [12] => thumbnail
+                                            [13] => url_key
+                                            [14] => url_path
+                                            [15] => custom_design
+                                            [16] => page_layout
+                                            [17] => options_container
+                                            [18] => image_label
+                                            [19] => small_image_label
+                                            [20] => thumbnail_label
+                                            [21] => country_of_manufacture
+                                            [22] => msrp_enabled
+                                            [23] => msrp_display_actual_price_type
+                                            [24] => gift_message_available
+                                            [25] => size
+                                            [26] => complextion_color
+                                            [27] => volume
+                                            [28] => allergens
+                                            [29] => ingredients
+                                            [30] => youtube
+                                            [31] => brand
+                                            [32] => age
+                                            [33] => ave_spend
+                                            [34] => burn
+                                            [35] => describe_hair
+                                            [36] => fragrance_pref
+                                            [37] => hair_color
+                                            [38] => hair_concern
+                                            [39] => hair_dye_colour
+                                            [40] => hair_length
+                                            [41] => hair_texture
+                                            [42] => skin_concern
+                                            [43] => skin_type
+                                            [44] => scent
+                                            [45] => price
+                                            [46] => special_price
+                                            [47] => weight
+                                            [48] => msrp
+                                            [49] => manufacturer
+                                            [50] => color
+                                            [51] => status
+                                            [52] => is_recurring
+                                            [53] => visibility
+                                            [54] => enable_googlecheckout
+                                            [55] => tax_class_id
+                                            [56] => colour_hair
+                                            [57] => editor_pick
+                                            [58] => stocklocation
+                                            [59] => description
+                                            [60] => short_description
+                                            [61] => meta_keyword
+                                            [62] => custom_layout_update
+                                            [63] => beauty_review
+                                            [64] => special_from_date
+                                            [65] => special_to_date
+                                            [66] => news_from_date
+                                            [67] => news_to_date
+                                            [68] => custom_design_from
+                                            [69] => custom_design_to
+                                            [70] => qty
+                                            [71] => min_qty
+                                            [72] => use_config_min_qty
+                                            [73] => is_qty_decimal
+                                            [74] => backorders
+                                            [75] => use_config_backorders
+                                            [76] => min_sale_qty
+                                            [77] => use_config_min_sale_qty
+                                            [78] => max_sale_qty
+                                            [79] => use_config_max_sale_qty
+                                            [80] => is_in_stock
+                                            [81] => low_stock_date
+                                            [82] => notify_stock_qty
+                                            [83] => use_config_notify_stock_qty
+                                            [84] => manage_stock
+                                            [85] => use_config_manage_stock
+                                            [86] => stock_status_changed_auto
+                                            [87] => use_config_qty_increments
+                                            [88] => qty_increments
+                                            [89] => use_config_enable_qty_inc
+                                            [90] => enable_qty_increments
+                                            [91] => is_decimal_divided
+                                            [92] => stock_status_changed_automatically
+                                            [93] => use_config_enable_qty_increments
+                                            [94] => product_name
+                                            [95] => store_id
+                                            [96] => product_type_id
+                                            [97] => product_status_changed
+                                            [98] => product_changed_websites
+                                            [99] => green_prod
+                                            [100] => subscription_product
+                                            [101] => frequency
+                                        )
+
+                                    [_csep:protected] => ,
+                                    [_dcsep:protected] => ,
+                                    [_params:protected] => 
+                                    [_buffersize:protected] => 0
+                                    [_curline:protected] => 1
+                                    [_nhcols:protected] => 102
+                                    [_ignored:protected] => Array
+                                        (
+                                            [0] => 
+                                        )
+
+                                    [_callers:protected] => Array
+                                        (
+                                            [0] => Magmi_CSVDataSource Object
+ *RECURSION*
+                                        )
+
+                                    [_cenc] => "
+                                )
+
+                            [_class:protected] => Magmi_CSVDataSource
+                            [_plugintype:protected] => 
+                            [_plugindir:protected] => 
+                            [_config:protected] => Magmi_PluginConfig Object
+                                (
+                                    [_prefix:protected] => Magmi_CSVDataSource
+                                    [_conffile:protected] => 
+                                    [_profile:protected] => default
+                                    [_basedir:protected] => /var/www/clients/client1/web1/web/magmi/conf
+                                    [_confname:protected] => /var/www/clients/client1/web1/web/magmi/conf/Magmi_CSVDataSource.conf
+                                    [_props:protected] => Array
+                                        (
+                                            [Magmi_CSVDataSource] => Array
+                                                (
+                                                    [CSV:importmode] => remote
+                                                    [CSV:basedir] => var/import
+                                                    [CSV:remoteurl] => http://rubybox.cmdhosting.co.za/var/export/export_all_products.csv
+                                                    [CSV:remoteuser] => 
+                                                    [CSV:remotepass] => 
+                                                    [CSV:separator] => ,
+                                                    [CSV:enclosure] => "
+                                                    [CSV:headerline] => 
+                                                )
+
+                                        )
+
+                                    [inifile] => /var/www/clients/client1/web1/web/magmi/conf/Magmi_CSVDataSource.conf
+                                    [_specialchars:protected] => Array
+                                        (
+                                            ["] => :DQUOTE:
+                                            ['] => :SQUOTE:
+                                            [\t] => TAB
+                                        )
+
+                                )
+
+                            [_magmiconfig:protected] => Magmi_Config Object
+                                (
+                                    [_defaultconfigname:Magmi_Config:private] => 
+                                    [_basedir:protected] => /var/www/clients/client1/web1/web/magmi/conf
+                                    [_confname:protected] => /var/www/clients/client1/web1/web/magmi/conf/magmi.ini
+                                    [_props:protected] => Array
+                                        (
+                                            [DATABASE] => Array
+                                                (
+                                                    [connectivity] => net
+                                                    [host] => localhost
+                                                    [port] => 3306
+                                                    [dbname] => c1test
+                                                    [user] => c1test
+                                                    [password] => ryvenapa121
+                                                    [table_prefix] => 
+                                                )
+
+                                            [MAGENTO] => Array
+                                                (
+                                                    [version] => 1.7.x
+                                                    [basedir] => ../..
+                                                )
+
+                                            [GLOBAL] => Array
+                                                (
+                                                    [step] => 0.5
+                                                    [multiselect_sep] => ,
+                                                    [dirmask] => 755
+                                                    [filemask] => 644
+                                                )
+
+                                        )
+
+                                    [inifile] => /var/www/clients/client1/web1/web/magmi/conf/magmi.ini
+                                    [_specialchars:protected] => Array
+                                        (
+                                            ["] => :DQUOTE:
+                                            ['] => :SQUOTE:
+                                            [\t] => TAB
+                                        )
+
+                                )
+
+                            [_pluginmeta:protected] => Array
+                                (
+                                    [class] => Magmi_CSVDataSource
+                                    [dir] => /var/www/clients/client1/web1/web/magmi/plugins/base/datasources/csv
+                                    [file] => magmi_csvdatasource.php
+                                )
+
+                            [_callers:protected] => Array
+                                (
+                                    [0] => Magmi_ProductImportEngine Object
+ *RECURSION*
+                                )
+
+                            [_params] => Array
+                                (
+                                    [CSV:importmode] => remote
+                                    [CSV:basedir] => var/import
+                                    [CSV:remoteurl] => http://rubybox.cmdhosting.co.za/var/export/export_all_products.csv
+                                    [CSV:remoteuser] => 
+                                    [CSV:remotepass] => 
+                                    [CSV:separator] => ,
+                                    [CSV:enclosure] => "
+                                    [CSV:headerline] => 
+                                    [engine] => magmi_productimportengine:Magmi_ProductImportEngine
+                                    [run] => import
+                                    [logfile] => progress.txt
+                                    [profile] => default
+                                    [mode] => create
+                                    [_] => 
+                                    [CSV:filename] => /var/www/clients/client1/web1/web/magmi/plugins/base/datasources/csv/downloads/export_all_products.csv
+                                )
+
+                        )
+
+                )
+
+            [general] => Array
+                (
+                )
+
+            [itemprocessors] => Array
+                (
+                    [0] => Magmi_DefaultAttributeItemProcessor Object
+                        (
+                            [_basecols:protected] => Array
+                                (
+                                    [store] => admin
+                                    [websites] => base
+                                    [type] => simple
+                                    [attribute_set] => Default
+                                )
+
+                            [_baseattrs:protected] => Array
+                                (
+                                    [status] => 1
+                                    [visibility] => 4
+                                    [page_layout] => 
+                                )
+
+                            [_missingcols:protected] => Array
+                                (
+                                )
+
+                            [_missingattrs:protected] => Array
+                                (
+                                )
+
+                            [_class:protected] => Magmi_DefaultAttributeItemProcessor
+                            [_plugintype:protected] => 
+                            [_plugindir:protected] => 
+                            [_config:protected] => Magmi_PluginConfig Object
+                                (
+                                    [_prefix:protected] => Magmi_DefaultAttributeItemProcessor
+                                    [_conffile:protected] => 
+                                    [_profile:protected] => default
+                                    [_basedir:protected] => /var/www/clients/client1/web1/web/magmi/conf
+                                    [_confname:protected] => /var/www/clients/client1/web1/web/magmi/conf/Magmi_DefaultAttributeItemProcessor.conf
+                                    [_props:protected] => 
+                                    [inifile] => 
+                                    [_specialchars:protected] => Array
+                                        (
+                                            ["] => :DQUOTE:
+                                            ['] => :SQUOTE:
+                                            [\t] => TAB
+                                        )
+
+                                )
+
+                            [_magmiconfig:protected] => Magmi_Config Object
+                                (
+                                    [_defaultconfigname:Magmi_Config:private] => 
+                                    [_basedir:protected] => /var/www/clients/client1/web1/web/magmi/conf
+                                    [_confname:protected] => /var/www/clients/client1/web1/web/magmi/conf/magmi.ini
+                                    [_props:protected] => Array
+                                        (
+                                            [DATABASE] => Array
+                                                (
+                                                    [connectivity] => net
+                                                    [host] => localhost
+                                                    [port] => 3306
+                                                    [dbname] => c1test
+                                                    [user] => c1test
+                                                    [password] => ryvenapa121
+                                                    [table_prefix] => 
+                                                )
+
+                                            [MAGENTO] => Array
+                                                (
+                                                    [version] => 1.7.x
+                                                    [basedir] => ../..
+                                                )
+
+                                            [GLOBAL] => Array
+                                                (
+                                                    [step] => 0.5
+                                                    [multiselect_sep] => ,
+                                                    [dirmask] => 755
+                                                    [filemask] => 644
+                                                )
+
+                                        )
+
+                                    [inifile] => /var/www/clients/client1/web1/web/magmi/conf/magmi.ini
+                                    [_specialchars:protected] => Array
+                                        (
+                                            ["] => :DQUOTE:
+                                            ['] => :SQUOTE:
+                                            [\t] => TAB
+                                        )
+
+                                )
+
+                            [_pluginmeta:protected] => 
+                            [_callers:protected] => Array
+                                (
+                                    [0] => Magmi_ProductImportEngine Object
+ *RECURSION*
+                                )
+
+                            [_params] => Array
+                                (
+                                    [engine] => magmi_productimportengine:Magmi_ProductImportEngine
+                                    [run] => import
+                                    [logfile] => progress.txt
+                                    [profile] => default
+                                    [mode] => create
+                                    [_] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [_pluginclasses:protected] => Array
+        (
+            [datasources] => Array
+                (
+                    [0] => Magmi_CSVDataSource
+                )
+
+            [general] => Array
+                (
+                )
+
+            [itemprocessors] => Array
+                (
+                    [0] => Magmi_DefaultAttributeItemProcessor
+                )
+
+        )
+
+    [_builtinplugins:protected] => Array
+        (
+            [itemprocessors] => /var/www/clients/client1/web1/web/magmi/plugins/inc/magmi_defaultattributehandler.php::Magmi_DefaultAttributeItemProcessor
+        )
+
+    [_ploop_callbacks:protected] => Array
+        (
+        )
+
+    [_excid:Magmi_Engine:private] => 1
+    [logger] => FileLogger Object
+        (
+            [_fname:protected] => /var/www/clients/client1/web1/web/magmi/state/progress.txt
+        )
+
+    [_db:protected] => PDO Object
+        (
+        )
+
+    [_debug:protected] => 
+    [_laststmt:protected] => PDOStatement Object
+        (
+            [queryString] => INSERT IGNORE INTO catalog_category_product (`category_id`,`product_id`)
+				 VALUES	 (?,?),(?,?),(?,?),(?,?),(?,?)
+        )
+
+    [_use_stmt_cache:protected] => 1
+    [_nreq:protected] => 15
+    [_indbtime:protected] => 0.0045416355133057
+    [_intrans:protected] => 1
+    [prepared:protected] => Array
+        (
+            [SELECT entity_type_id FROM eav_entity_type WHERE entity_type_code=?] => Array
+                (
+                    [0] => PDOStatement Object
+                        (
+                            [queryString] => SELECT entity_type_id FROM eav_entity_type WHERE entity_type_code=?
+                        )
+
+                    [1] => 1
+                )
+
+            [SELECT `eav_attribute`.*,catalog_eav_attribute.is_global FROM `eav_attribute`
+				LEFT JOIN catalog_eav_attribute ON eav_attribute.attribute_id=catalog_eav_attribute.attribute_id
+				WHERE  (eav_attribute.attribute_code IN (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)) AND (entity_type_id=?)] => Array
+                (
+                    [0] => PDOStatement Object
+                        (
+                            [queryString] => SELECT `eav_attribute`.*,catalog_eav_attribute.is_global FROM `eav_attribute`
+				LEFT JOIN catalog_eav_attribute ON eav_attribute.attribute_id=catalog_eav_attribute.attribute_id
+				WHERE  (eav_attribute.attribute_code IN (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)) AND (entity_type_id=?)
+                        )
+
+                    [1] => 1
+                )
+
+            [SELECT sku,entity_id as pid,attribute_set_id as asid FROM catalog_product_entity WHERE sku=?] => Array
+                (
+                    [0] => PDOStatement Object
+                        (
+                            [queryString] => SELECT sku,entity_id as pid,attribute_set_id as asid FROM catalog_product_entity WHERE sku=?
+                        )
+
+                    [1] => 1
+                )
+
+            [SELECT attribute_set_id FROM eav_attribute_set WHERE attribute_set_name=? AND entity_type_id=?] => Array
+                (
+                    [0] => PDOStatement Object
+                        (
+                            [queryString] => SELECT attribute_set_id FROM eav_attribute_set WHERE attribute_set_name=? AND entity_type_id=?
+                        )
+
+                    [1] => 1
+                )
+
+            [DESCRIBE catalog_product_entity] => Array
+                (
+                    [0] => PDOStatement Object
+                        (
+                            [queryString] => DESCRIBE catalog_product_entity
+                        )
+
+                    [1] => 1
+                )
+
+            [INSERT INTO `catalog_product_entity` (sku,has_options,type_id,attribute_set_id,entity_type_id,created_at,updated_at) VALUES (?,?,?,?,?,?,?)] => Array
+                (
+                    [0] => PDOStatement Object
+                        (
+                            [queryString] => INSERT INTO `catalog_product_entity` (sku,has_options,type_id,attribute_set_id,entity_type_id,created_at,updated_at) VALUES (?,?,?,?,?,?,?)
+                        )
+
+                    [1] => 1
+                )
+
+            [SELECT csmain.store_id from core_store as csmain WHERE csmain.code IN (?)] => Array
+                (
+                    [0] => PDOStatement Object
+                        (
+                            [queryString] => SELECT csmain.store_id from core_store as csmain WHERE csmain.code IN (?)
+                        )
+
+                    [1] => 1
+                )
+
+            [SELECT csdep.store_id FROM core_store as csmain 
+				 JOIN core_store as csdep ON csdep.website_id=csmain.website_id
+				 WHERE csmain.code IN (?) ] => Array
+                (
+                    [0] => PDOStatement Object
+                        (
+                            [queryString] => SELECT csdep.store_id FROM core_store as csmain 
+				 JOIN core_store as csdep ON csdep.website_id=csmain.website_id
+				 WHERE csmain.code IN (?) 
+                        )
+
+                    [1] => 1
+                )
+
+            [INSERT INTO catalog_product_entity_varchar
+			(`entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`)
+			VALUES (?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?) ON DUPLICATE KEY UPDATE `value`=VALUES(`value`)] => Array
+                (
+                    [0] => PDOStatement Object
+                        (
+                            [queryString] => INSERT INTO catalog_product_entity_varchar
+			(`entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`)
+			VALUES (?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?) ON DUPLICATE KEY UPDATE `value`=VALUES(`value`)
+                        )
+
+                    [1] => 1
+                )
+
+            [INSERT INTO catalog_product_entity_text
+			(`entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`)
+			VALUES (?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?) ON DUPLICATE KEY UPDATE `value`=VALUES(`value`)] => Array
+                (
+                    [0] => PDOStatement Object
+                        (
+                            [queryString] => INSERT INTO catalog_product_entity_text
+			(`entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`)
+			VALUES (?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?) ON DUPLICATE KEY UPDATE `value`=VALUES(`value`)
+                        )
+
+                    [1] => 1
+                )
+
+            [INSERT INTO catalog_product_entity_decimal
+			(`entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`)
+			VALUES (?,?,?,?,?),(?,?,?,?,?) ON DUPLICATE KEY UPDATE `value`=VALUES(`value`)] => Array
+                (
+                    [0] => PDOStatement Object
+                        (
+                            [queryString] => INSERT INTO catalog_product_entity_decimal
+			(`entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`)
+			VALUES (?,?,?,?,?),(?,?,?,?,?) ON DUPLICATE KEY UPDATE `value`=VALUES(`value`)
+                        )
+
+                    [1] => 1
+                )
+
+            [DELETE FROM catalog_product_entity_decimal WHERE entity_type_id=? AND attribute_id IN (567,943) AND store_id IN (0) AND entity_id=?] => Array
+                (
+                    [0] => PDOStatement Object
+                        (
+                            [queryString] => DELETE FROM catalog_product_entity_decimal WHERE entity_type_id=? AND attribute_id IN (567,943) AND store_id IN (0) AND entity_id=?
+                        )
+
+                    [1] => 1
+                )
+
+            [SELECT class_id FROM tax_class WHERE class_name=?] => Array
+                (
+                    [0] => PDOStatement Object
+                        (
+                            [queryString] => SELECT class_id FROM tax_class WHERE class_name=?
+                        )
+
+                    [1] => 1
+                )
+
+            [INSERT INTO catalog_product_entity_int
+			(`entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`)
+			VALUES (?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?) ON DUPLICATE KEY UPDATE `value`=VALUES(`value`)] => Array
+                (
+                    [0] => PDOStatement Object
+                        (
+                            [queryString] => INSERT INTO catalog_product_entity_int
+			(`entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`)
+			VALUES (?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?),(?,?,?,?,?) ON DUPLICATE KEY UPDATE `value`=VALUES(`value`)
+                        )
+
+                    [1] => 1
+                )
+
+            [DELETE FROM catalog_product_entity_datetime WHERE entity_type_id=? AND attribute_id IN (568,569,572,573,704,705) AND store_id IN (0) AND entity_id=?] => Array
+                (
+                    [0] => PDOStatement Object
+                        (
+                            [queryString] => DELETE FROM catalog_product_entity_datetime WHERE entity_type_id=? AND attribute_id IN (568,569,572,573,704,705) AND store_id IN (0) AND entity_id=?
+                        )
+
+                    [1] => 1
+                )
+
+            [DELETE catalog_category_product.*
+			FROM catalog_category_product
+			JOIN catalog_category_entity ON catalog_category_entity.entity_id=catalog_category_product.category_id
+			WHERE product_id=?] => Array
+                (
+                    [0] => PDOStatement Object
+                        (
+                            [queryString] => DELETE catalog_category_product.*
+			FROM catalog_category_product
+			JOIN catalog_category_entity ON catalog_category_entity.entity_id=catalog_category_product.category_id
+			WHERE product_id=?
+                        )
+
+                    [1] => 1
+                )
+
+            [INSERT IGNORE INTO catalog_category_product (`category_id`,`product_id`)
+				 VALUES	 (?,?),(?,?),(?,?),(?,?),(?,?)] => Array
+                (
+                    [0] => PDOStatement Object
+                        (
+                            [queryString] => INSERT IGNORE INTO catalog_category_product (`category_id`,`product_id`)
+				 VALUES	 (?,?),(?,?),(?,?),(?,?),(?,?)
+                        )
+
+                    [1] => 1
+                )
+
+        )
+
+    [datasource] => Magmi_CSVDataSource Object
+        (
+            [_csvreader:protected] => Magmi_CSVReader Object
+                (
+                    [_filename:protected] => /var/www/clients/client1/web1/web/magmi/plugins/base/datasources/csv/downloads/export_all_products.csv
+                    [_fh:protected] => Resource id #119
+                    [_cols:protected] => Array
+                        (
+                            [0] => store
+                            [1] => websites
+                            [2] => attribute_set
+                            [3] => type
+                            [4] => category_ids
+                            [5] => sku
+                            [6] => has_options
+                            [7] => name
+                            [8] => meta_title
+                            [9] => meta_description
+                            [10] => image
+                            [11] => small_image
+                            [12] => thumbnail
+                            [13] => url_key
+                            [14] => url_path
+                            [15] => custom_design
+                            [16] => page_layout
+                            [17] => options_container
+                            [18] => image_label
+                            [19] => small_image_label
+                            [20] => thumbnail_label
+                            [21] => country_of_manufacture
+                            [22] => msrp_enabled
+                            [23] => msrp_display_actual_price_type
+                            [24] => gift_message_available
+                            [25] => size
+                            [26] => complextion_color
+                            [27] => volume
+                            [28] => allergens
+                            [29] => ingredients
+                            [30] => youtube
+                            [31] => brand
+                            [32] => age
+                            [33] => ave_spend
+                            [34] => burn
+                            [35] => describe_hair
+                            [36] => fragrance_pref
+                            [37] => hair_color
+                            [38] => hair_concern
+                            [39] => hair_dye_colour
+                            [40] => hair_length
+                            [41] => hair_texture
+                            [42] => skin_concern
+                            [43] => skin_type
+                            [44] => scent
+                            [45] => price
+                            [46] => special_price
+                            [47] => weight
+                            [48] => msrp
+                            [49] => manufacturer
+                            [50] => color
+                            [51] => status
+                            [52] => is_recurring
+                            [53] => visibility
+                            [54] => enable_googlecheckout
+                            [55] => tax_class_id
+                            [56] => colour_hair
+                            [57] => editor_pick
+                            [58] => stocklocation
+                            [59] => description
+                            [60] => short_description
+                            [61] => meta_keyword
+                            [62] => custom_layout_update
+                            [63] => beauty_review
+                            [64] => special_from_date
+                            [65] => special_to_date
+                            [66] => news_from_date
+                            [67] => news_to_date
+                            [68] => custom_design_from
+                            [69] => custom_design_to
+                            [70] => qty
+                            [71] => min_qty
+                            [72] => use_config_min_qty
+                            [73] => is_qty_decimal
+                            [74] => backorders
+                            [75] => use_config_backorders
+                            [76] => min_sale_qty
+                            [77] => use_config_min_sale_qty
+                            [78] => max_sale_qty
+                            [79] => use_config_max_sale_qty
+                            [80] => is_in_stock
+                            [81] => low_stock_date
+                            [82] => notify_stock_qty
+                            [83] => use_config_notify_stock_qty
+                            [84] => manage_stock
+                            [85] => use_config_manage_stock
+                            [86] => stock_status_changed_auto
+                            [87] => use_config_qty_increments
+                            [88] => qty_increments
+                            [89] => use_config_enable_qty_inc
+                            [90] => enable_qty_increments
+                            [91] => is_decimal_divided
+                            [92] => stock_status_changed_automatically
+                            [93] => use_config_enable_qty_increments
+                            [94] => product_name
+                            [95] => store_id
+                            [96] => product_type_id
+                            [97] => product_status_changed
+                            [98] => product_changed_websites
+                            [99] => green_prod
+                            [100] => subscription_product
+                            [101] => frequency
+                        )
+
+                    [_csep:protected] => ,
+                    [_dcsep:protected] => ,
+                    [_params:protected] => 
+                    [_buffersize:protected] => 0
+                    [_curline:protected] => 1
+                    [_nhcols:protected] => 102
+                    [_ignored:protected] => Array
+                        (
+                            [0] => 
+                        )
+
+                    [_callers:protected] => Array
+                        (
+                            [0] => Magmi_CSVDataSource Object
+ *RECURSION*
+                        )
+
+                    [_cenc] => "
+                )
+
+            [_class:protected] => Magmi_CSVDataSource
+            [_plugintype:protected] => 
+            [_plugindir:protected] => 
+            [_config:protected] => Magmi_PluginConfig Object
+                (
+                    [_prefix:protected] => Magmi_CSVDataSource
+                    [_conffile:protected] => 
+                    [_profile:protected] => default
+                    [_basedir:protected] => /var/www/clients/client1/web1/web/magmi/conf
+                    [_confname:protected] => /var/www/clients/client1/web1/web/magmi/conf/Magmi_CSVDataSource.conf
+                    [_props:protected] => Array
+                        (
+                            [Magmi_CSVDataSource] => Array
+                                (
+                                    [CSV:importmode] => remote
+                                    [CSV:basedir] => var/import
+                                    [CSV:remoteurl] => http://rubybox.cmdhosting.co.za/var/export/export_all_products.csv
+                                    [CSV:remoteuser] => 
+                                    [CSV:remotepass] => 
+                                    [CSV:separator] => ,
+                                    [CSV:enclosure] => "
+                                    [CSV:headerline] => 
+                                )
+
+                        )
+
+                    [inifile] => /var/www/clients/client1/web1/web/magmi/conf/Magmi_CSVDataSource.conf
+                    [_specialchars:protected] => Array
+                        (
+                            ["] => :DQUOTE:
+                            ['] => :SQUOTE:
+                            [\t] => TAB
+                        )
+
+                )
+
+            [_magmiconfig:protected] => Magmi_Config Object
+                (
+                    [_defaultconfigname:Magmi_Config:private] => 
+                    [_basedir:protected] => /var/www/clients/client1/web1/web/magmi/conf
+                    [_confname:protected] => /var/www/clients/client1/web1/web/magmi/conf/magmi.ini
+                    [_props:protected] => Array
+                        (
+                            [DATABASE] => Array
+                                (
+                                    [connectivity] => net
+                                    [host] => localhost
+                                    [port] => 3306
+                                    [dbname] => c1test
+                                    [user] => c1test
+                                    [password] => ryvenapa121
+                                    [table_prefix] => 
+                                )
+
+                            [MAGENTO] => Array
+                                (
+                                    [version] => 1.7.x
+                                    [basedir] => ../..
+                                )
+
+                            [GLOBAL] => Array
+                                (
+                                    [step] => 0.5
+                                    [multiselect_sep] => ,
+                                    [dirmask] => 755
+                                    [filemask] => 644
+                                )
+
+                        )
+
+                    [inifile] => /var/www/clients/client1/web1/web/magmi/conf/magmi.ini
+                    [_specialchars:protected] => Array
+                        (
+                            ["] => :DQUOTE:
+                            ['] => :SQUOTE:
+                            [\t] => TAB
+                        )
+
+                )
+
+            [_pluginmeta:protected] => Array
+                (
+                    [class] => Magmi_CSVDataSource
+                    [dir] => /var/www/clients/client1/web1/web/magmi/plugins/base/datasources/csv
+                    [file] => magmi_csvdatasource.php
+                )
+
+            [_callers:protected] => Array
+                (
+                    [0] => Magmi_ProductImportEngine Object
+ *RECURSION*
+                )
+
+            [_params] => Array
+                (
+                    [CSV:importmode] => remote
+                    [CSV:basedir] => var/import
+                    [CSV:remoteurl] => http://rubybox.cmdhosting.co.za/var/export/export_all_products.csv
+                    [CSV:remoteuser] => 
+                    [CSV:remotepass] => 
+                    [CSV:separator] => ,
+                    [CSV:enclosure] => "
+                    [CSV:headerline] => 
+                    [engine] => magmi_productimportengine:Magmi_ProductImportEngine
+                    [run] => import
+                    [logfile] => progress.txt
+                    [profile] => default
+                    [mode] => create
+                    [_] => 
+                    [CSV:filename] => /var/www/clients/client1/web1/web/magmi/plugins/base/datasources/csv/downloads/export_all_products.csv
+                )
+
+        )
+
+    [_optidcache:Magmi_ProductImportEngine:private] => Array
+        (
+        )
+
+)
+
++++++++++++++++++++++++++++++
+END CONTEXT DUMP
++++++++++++++++++++++++++++++
+---- ENDTRACE : 1 -----
+---- TRACE : 2 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 2 -----
+---- TRACE : 3 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 3 -----
+---- TRACE : 4 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 4 -----
+---- TRACE : 5 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 5 -----
+---- TRACE : 6 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 6 -----
+---- TRACE : 7 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 7 -----
+---- TRACE : 8 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 8 -----
+---- TRACE : 9 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 9 -----
+---- TRACE : 10 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 10 -----
+---- TRACE : 11 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 11 -----
+---- TRACE : 12 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 12 -----
+---- TRACE : 13 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 13 -----
+---- TRACE : 14 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 14 -----
+---- TRACE : 15 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 15 -----
+---- TRACE : 16 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 16 -----
+---- TRACE : 17 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 17 -----
+---- TRACE : 18 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 18 -----
+---- TRACE : 19 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 19 -----
+---- TRACE : 20 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 20 -----
+---- TRACE : 21 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 21 -----
+---- TRACE : 22 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 22 -----
+---- TRACE : 23 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 23 -----
+---- TRACE : 24 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 24 -----
+---- TRACE : 25 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 25 -----
+---- TRACE : 26 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 26 -----
+---- TRACE : 27 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 27 -----
+---- TRACE : 28 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 28 -----
+---- TRACE : 29 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 29 -----
+---- TRACE : 30 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 30 -----
+---- TRACE : 31 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 31 -----
+---- TRACE : 32 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 32 -----
+---- TRACE : 33 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 33 -----
+---- TRACE : 34 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 34 -----
+---- TRACE : 35 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 35 -----
+---- TRACE : 36 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 36 -----
+---- TRACE : 37 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 37 -----
+---- TRACE : 38 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 38 -----
+---- TRACE : 39 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 39 -----
+---- TRACE : 40 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 40 -----
+---- TRACE : 41 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 41 -----
+---- TRACE : 42 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 42 -----
+---- TRACE : 43 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 43 -----
+---- TRACE : 44 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 44 -----
+---- TRACE : 45 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 45 -----
+---- TRACE : 46 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 46 -----
+---- TRACE : 47 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 47 -----
+---- TRACE : 48 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 48 -----
+---- TRACE : 49 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 49 -----
+---- TRACE : 50 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 50 -----
+---- TRACE : 51 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 51 -----
+---- TRACE : 52 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 52 -----
+---- TRACE : 53 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 53 -----
+---- TRACE : 54 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 54 -----
+---- TRACE : 55 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 55 -----
+---- TRACE : 56 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 56 -----
+---- TRACE : 57 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 57 -----
+---- TRACE : 58 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 58 -----
+---- TRACE : 59 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 59 -----
+---- TRACE : 60 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 60 -----
+---- TRACE : 61 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 61 -----
+---- TRACE : 62 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 62 -----
+---- TRACE : 63 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 63 -----
+---- TRACE : 64 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 64 -----
+---- TRACE : 65 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 65 -----
+---- TRACE : 66 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 66 -----
+---- TRACE : 67 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 67 -----
+---- TRACE : 68 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 68 -----
+---- TRACE : 69 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 69 -----
+---- TRACE : 70 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 70 -----
+---- TRACE : 71 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 71 -----
+---- TRACE : 72 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 72 -----
+---- TRACE : 73 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 73 -----
+---- TRACE : 74 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 74 -----
+---- TRACE : 75 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 75 -----
+---- TRACE : 76 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 76 -----
+---- TRACE : 77 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 77 -----
+---- TRACE : 78 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 78 -----
+---- TRACE : 79 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 79 -----
+---- TRACE : 80 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 80 -----
+---- TRACE : 81 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 81 -----
+---- TRACE : 82 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 82 -----
+---- TRACE : 83 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 83 -----
+---- TRACE : 84 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 84 -----
+---- TRACE : 85 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 85 -----
+---- TRACE : 86 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 86 -----
+---- TRACE : 87 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 87 -----
+---- TRACE : 88 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 88 -----
+---- TRACE : 89 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 89 -----
+---- TRACE : 90 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 90 -----
+---- TRACE : 91 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 91 -----
+---- TRACE : 92 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 92 -----
+---- TRACE : 93 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 93 -----
+---- TRACE : 94 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 94 -----
+---- TRACE : 95 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 95 -----
+---- TRACE : 96 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 96 -----
+---- TRACE : 97 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 97 -----
+---- TRACE : 98 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 98 -----
+---- TRACE : 99 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 99 -----
+---- TRACE : 100 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 100 -----
+---- TRACE : 101 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 101 -----
+---- TRACE : 102 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 102 -----
+---- TRACE : 103 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 103 -----
+---- TRACE : 104 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 104 -----
+---- TRACE : 105 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 105 -----
+---- TRACE : 106 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 106 -----
+---- TRACE : 107 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 107 -----
+---- TRACE : 108 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 108 -----
+---- TRACE : 109 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 109 -----
+---- TRACE : 110 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 110 -----
+---- TRACE : 111 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 111 -----
+---- TRACE : 112 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 112 -----
+---- TRACE : 113 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 113 -----
+---- TRACE : 114 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 114 -----
+---- TRACE : 115 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 115 -----
+---- TRACE : 116 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 116 -----
+---- TRACE : 117 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 117 -----
+---- TRACE : 118 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 118 -----
+---- TRACE : 119 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 119 -----
+---- TRACE : 120 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 120 -----
+---- TRACE : 121 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 121 -----
+---- TRACE : 122 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 122 -----
+---- TRACE : 123 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 123 -----
+---- TRACE : 124 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 124 -----
+---- TRACE : 125 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 125 -----
+---- TRACE : 126 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 126 -----
+---- TRACE : 127 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 127 -----
+---- TRACE : 128 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 128 -----
+---- TRACE : 129 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 129 -----
+---- TRACE : 130 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 130 -----
+---- TRACE : 131 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 131 -----
+---- TRACE : 132 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 132 -----
+---- TRACE : 133 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 133 -----
+---- TRACE : 134 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 134 -----
+---- TRACE : 135 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 135 -----
+---- TRACE : 136 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 136 -----
+---- TRACE : 137 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 137 -----
+---- TRACE : 138 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 138 -----
+---- TRACE : 139 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 139 -----
+---- TRACE : 140 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 140 -----
+---- TRACE : 141 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 141 -----
+---- TRACE : 142 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 142 -----
+---- TRACE : 143 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 143 -----
+---- TRACE : 144 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 144 -----
+---- TRACE : 145 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 145 -----
+---- TRACE : 146 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 146 -----
+---- TRACE : 147 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 147 -----
+---- TRACE : 148 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 148 -----
+---- TRACE : 149 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 149 -----
+---- TRACE : 150 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 150 -----
+---- TRACE : 151 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 151 -----
+---- TRACE : 152 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 152 -----
+---- TRACE : 153 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 153 -----
+---- TRACE : 154 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 154 -----
+---- TRACE : 155 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 155 -----
+---- TRACE : 156 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 156 -----
+---- TRACE : 157 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 157 -----
+---- TRACE : 158 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 158 -----
+---- TRACE : 159 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 159 -----
+---- TRACE : 160 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 160 -----
+---- TRACE : 161 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 161 -----
+---- TRACE : 162 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 162 -----
+---- TRACE : 163 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 163 -----
+---- TRACE : 164 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 164 -----
+---- TRACE : 165 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 165 -----
+---- TRACE : 166 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 166 -----
+---- TRACE : 167 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 167 -----
+---- TRACE : 168 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 168 -----
+---- TRACE : 169 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 169 -----
+---- TRACE : 170 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 170 -----
+---- TRACE : 171 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 171 -----
+---- TRACE : 172 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 172 -----
+---- TRACE : 173 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 173 -----
+---- TRACE : 174 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 174 -----
+---- TRACE : 175 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 175 -----
+---- TRACE : 176 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 176 -----
+---- TRACE : 177 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 177 -----
+---- TRACE : 178 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 178 -----
+---- TRACE : 179 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 179 -----
+---- TRACE : 180 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 180 -----
+---- TRACE : 181 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 181 -----
+---- TRACE : 182 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 182 -----
+---- TRACE : 183 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 183 -----
+---- TRACE : 184 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 184 -----
+---- TRACE : 185 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 185 -----
+---- TRACE : 186 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 186 -----
+---- TRACE : 187 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 187 -----
+---- TRACE : 188 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 188 -----
+---- TRACE : 189 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 189 -----
+---- TRACE : 190 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 190 -----
+---- TRACE : 191 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 191 -----
+---- TRACE : 192 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 192 -----
+---- TRACE : 193 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 193 -----
+---- TRACE : 194 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 194 -----
+---- TRACE : 195 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 195 -----
+---- TRACE : 196 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 196 -----
+---- TRACE : 197 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 197 -----
+---- TRACE : 198 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 198 -----
+---- TRACE : 199 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 199 -----
+---- TRACE : 200 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 200 -----
+---- TRACE : 201 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 201 -----
+---- TRACE : 202 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 202 -----
+---- TRACE : 203 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 203 -----
+---- TRACE : 204 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 204 -----
+---- TRACE : 205 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 205 -----
+---- TRACE : 206 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 206 -----
+---- TRACE : 207 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 207 -----
+---- TRACE : 208 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 208 -----
+---- TRACE : 209 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 209 -----
+---- TRACE : 210 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 210 -----
+---- TRACE : 211 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 211 -----
+---- TRACE : 212 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 212 -----
+---- TRACE : 213 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 213 -----
+---- TRACE : 214 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 214 -----
+---- TRACE : 215 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 215 -----
+---- TRACE : 216 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 216 -----
+---- TRACE : 217 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 217 -----
+---- TRACE : 218 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 218 -----
+---- TRACE : 219 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 219 -----
+---- TRACE : 220 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 220 -----
+---- TRACE : 221 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 221 -----
+---- TRACE : 222 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 222 -----
+---- TRACE : 223 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 223 -----
+---- TRACE : 224 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 224 -----
+---- TRACE : 225 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 225 -----
+---- TRACE : 226 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 226 -----
+---- TRACE : 227 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 227 -----
+---- TRACE : 228 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 228 -----
+---- TRACE : 229 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 229 -----
+---- TRACE : 230 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 230 -----
+---- TRACE : 231 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 231 -----
+---- TRACE : 232 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 232 -----
+---- TRACE : 233 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 233 -----
+---- TRACE : 234 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 234 -----
+---- TRACE : 235 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 235 -----
+---- TRACE : 236 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 236 -----
+---- TRACE : 237 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 237 -----
+---- TRACE : 238 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 238 -----
+---- TRACE : 239 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 239 -----
+---- TRACE : 240 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 240 -----
+---- TRACE : 241 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 241 -----
+---- TRACE : 242 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 242 -----
+---- TRACE : 243 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 243 -----
+---- TRACE : 244 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 244 -----
+---- TRACE : 245 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 245 -----
+---- TRACE : 246 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 246 -----
+---- TRACE : 247 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 247 -----
+---- TRACE : 248 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 248 -----
+---- TRACE : 249 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 249 -----
+---- TRACE : 250 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 250 -----
+---- TRACE : 251 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 251 -----
+---- TRACE : 252 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 252 -----
+---- TRACE : 253 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 253 -----
+---- TRACE : 254 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 254 -----
+---- TRACE : 255 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 255 -----
+---- TRACE : 256 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 256 -----
+---- TRACE : 257 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 257 -----
+---- TRACE : 258 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 258 -----
+---- TRACE : 259 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 259 -----
+---- TRACE : 260 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 260 -----
+---- TRACE : 261 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 261 -----
+---- TRACE : 262 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 262 -----
+---- TRACE : 263 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 263 -----
+---- TRACE : 264 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 264 -----
+---- TRACE : 265 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 265 -----
+---- TRACE : 266 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 266 -----
+---- TRACE : 267 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 267 -----
+---- TRACE : 268 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 268 -----
+---- TRACE : 269 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 269 -----
+---- TRACE : 270 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 270 -----
+---- TRACE : 271 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 271 -----
+---- TRACE : 272 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 272 -----
+---- TRACE : 273 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 273 -----
+---- TRACE : 274 -----
+Duplicated exception - same trace as TRACE : 1
+---- ENDTRACE : 274 -----

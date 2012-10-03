@@ -1,0 +1,131 @@
+@import "boilerplate";
+@import "defaults";
+@import "bootstrap";
+@import "bootstrap-responsive";
+@import "mobiscroll.core-2.0.1"; 
+@import "compass/css3";
+@import "compass/utilities/general/clearfix";
+
+::-moz-selection { background: gray; color: #fff; text-shadow: none; }
+::selection { background: gray; color: #fff; text-shadow: none; }
+
+/* 
+  ------------------------------------------------------------------------------
+    COLORS
+  ------------------------------------------------------------------------------
+*/
+ 
+$cyan: #00adef; 
+$darkCyan: #0082e6;
+$grey: #999;
+$paleGrey: #afafaf;
+$darkGrey: #666;
+$anthracite: #333;
+$midnightBlue: #003366;
+$textColor: #ccc;
+
+$clGreen: #bdca07;
+
+/* 
+  ------------------------------------------------------------------------------
+    COMMON STYLES
+  ------------------------------------------------------------------------------
+/* Gernal */
+
+.container {
+    .workspace_caption {
+        display: none;
+        margin: 0 0 30px 0;
+        float: left;
+    }
+        
+    #loader-wrapper{
+        margin: 0.3em 0 0 0;
+        .ajax_img, span {
+            display: none;
+            margin-left:1em;
+        }
+        #workspace-refresh {
+            display: none;
+            margin-left:1em;
+        }
+    }
+    
+}
+
+.att_track_table tbody tr {
+    & > td {
+        vertical-align: middle;
+    }
+    .progress {
+        margin-bottom: 0;
+    }
+}
+
+
+#start-modal {
+    #api-key-form .controls{
+        margin-left: 0px;
+    }
+    .ajax_img {
+        display: none;
+    }
+    #api-key-edit, #api-key-delete, #api-key-refresh {
+        display: none;
+    }
+    
+    #workspace-container {
+        display: none;
+        .workspace {
+            text-align: center;
+            cursor: pointer;
+            overflow:hidden;
+            
+            &:hover {
+                @include box-shadow(rgba(0, 0, 0, 0.1) 0 1px 20px inset);
+            }
+
+        }    }
+    
+    .hint_api_key{
+        margin:10px 0 0 5px;
+    }
+    
+}
+
+#track-table {
+    clear: both;
+    display: none;
+    .my_timer {
+        .time {
+            line-height: 28px;
+        }
+        & > *{
+            float: left;
+            margin: 0 2em 0 0;
+        }
+        button {
+            .start_stop_text{
+                margin-left:4px;
+            }
+        }
+    }
+    .worked_time_line{
+        background-color:#f8f8f8;
+        font-weight:bold;
+    }
+    .text_align{
+        &.right{
+            text-align:right;
+        }
+    }
+}
+
+// Timepicker
+
+.date-picker-et, .date-picker-wt {    display: none;
+}
+
+.estimated_time, .worked_time {
+    cursor: pointer;
+}
